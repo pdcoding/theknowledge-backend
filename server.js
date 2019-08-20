@@ -8,5 +8,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Attention humans, we are observing you on PORT ${PORT}`);
+  console.log(`Attention all humans, we are observing you on PORT ${PORT}`);
 });

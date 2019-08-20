@@ -26,6 +26,13 @@ users.post('/', (req, res) => {
 	});
 });
 
+// Delete
+users.delete('/', (req, res) => {
+	req.session.destroy(() => {
+		res.redirect('/');
+	});
+});
+
 
 module.exports = users;
 

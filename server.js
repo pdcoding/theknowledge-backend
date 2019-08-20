@@ -6,23 +6,24 @@ const app = express();
 const PORT = 3003;
 const MONGODB_URI = 'mongodb://localhost:27017/knowledge';
 
-const whitelist = ['http://localhost:3000'];
-const corsOptions = {
-  origin: (origin, callback) => {
-    if (whitelist.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  }
-};
+// const whitelist = ['http://localhost:3000'];
+// const corsOptions = {
+//   origin: (origin, callback) => {
+//     if (whitelist.indexOf(origin) !== -1) {
+//       callback(null, true);
+//     } else {
+//       callback(new Error('Not allowed by CORS'));
+//     }
+//   }
+// };
 
 //middleware
 app.use(
   session({ secret: 'pineapple', resave: false, saveUninitialized: false })
 );
 app.use(express.json());
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
+
 
 // Mongoose connection
 mongoose.connection.on('error', err => {
@@ -43,6 +44,8 @@ mongoose.connection.once('open', () => {
 //User Controllers & routes
 const userController = require('./controllers/users.js');
 app.use('/users', userController);
+const quizController = require ('./controllers/quiz')
+app.use('/quizzes', quizController);
 
 //Sessions controller
 const sessionsController = require('./controllers/sessions.js');

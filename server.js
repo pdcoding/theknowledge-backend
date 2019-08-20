@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const session = require('express-session');
 const app = express();
 const PORT = 3003;
-const MONGODB_URI = 'mongodb://localhost:27017';
+const MONGODB_URI = 'mongodb://localhost:27017/knowledge';
 
 const whitelist = ['http://localhost:3000'];
 const corsOptions = {

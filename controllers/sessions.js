@@ -16,10 +16,10 @@ users.get('/', (req, res) => {
 
 //Create
 users.post('/', (req, res) => {
-	User.findOne({ name: req.body.username }, (err, foundUser) => {
+	User.findOne({ email: req.body.email  }, (err, foundUser) => {
 		if (bcrypt.compareSync(req.body.password, foundUser.password)) {
 			req.session.currentUser = foundUser;
-			res.redirect('/');
+			res.send('login correct');
 		} else {
 			res.send('wrong password');
 		}

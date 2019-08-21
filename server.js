@@ -24,7 +24,6 @@ app.use(
 app.use(express.json());
 // app.use(cors(corsOptions));
 
-
 // Mongoose connection
 mongoose.connection.on('error', err => {
   console.log(err.message + ' is Mongod not running?');
@@ -44,7 +43,7 @@ mongoose.connection.once('open', () => {
 //User Controllers & routes
 const userController = require('./controllers/users.js');
 app.use('/users', userController);
-const quizController = require ('./controllers/quiz')
+const quizController = require('./controllers/quiz');
 app.use('/quizzes', quizController);
 
 //Sessions controller

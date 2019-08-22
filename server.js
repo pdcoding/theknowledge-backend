@@ -1,4 +1,4 @@
-// const cors = require('cors');
+const cors = require('cors');
 const express = require('express');
 const mongoose = require('mongoose');
 const session = require('express-session');
@@ -9,19 +9,19 @@ const MongoStore = require('connect-mongo')(session);
 const isUser = require('./controllers/auth');
 
 const whitelist = ['http://localhost:3000'];
-// const corsOptions = {
-//   credentials: true,
-//   origin: (origin, callback) => {
-//     if (whitelist.indexOf(origin) !== -1) {
-//       callback(null, true);
-//     } else {
-//       callback(new Error('Not allowed by CORS'));
-//     }
-//   }
-// };
+const corsOptions = {
+  credentials: true,
+  origin: (origin, callback) => {
+    if (whitelist.indexOf(origin) !== -1) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  }
+};
 
 app.use(express.json());
-// app.use(cors(corsOptions));
+app.use(cors(corsOptions));
 
 // Mongoose connection
 mongoose.connection.on('error', err => {

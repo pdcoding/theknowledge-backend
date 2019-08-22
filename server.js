@@ -6,6 +6,7 @@ const app = express();
 const PORT = 3003;
 const MONGODB_URI = 'mongodb://localhost:27017/knowledge';
 const MongoStore = require('connect-mongo')(session);
+const isUser = require('./controllers/auth');
 
 const whitelist = ['http://localhost:3000'];
 const corsOptions = {
@@ -50,6 +51,10 @@ app.use(
     cookie: {}
   })
 );
+
+app.get('/', (req, res) => {
+	res.json({message: "HELP"});
+});
 
 // Controllers
 const userController = require('./controllers/users.js');

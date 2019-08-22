@@ -5,13 +5,13 @@ const User = require('../models/users.js');
 
 // create
 users.post('/', (req, res) => {
-	// console.log('SESSION ID BELOW');
-	// if (req.headers.cookie) {
-	// 	const cookies = parseCookies(req.headers.cookie);
-	// 	console.log(cookies.sessionid);
-	// } else {
-	// 	console.log('no session yet');
-	// }
+	console.log('SESSION ID BELOW');
+	if (req.headers.cookie) {
+		const cookies = parseCookies(req.headers.cookie);
+		console.log(cookies.sessionid);
+	} else {
+		console.log('no session yet');
+	}
 
 	req.body.password = bcrypt.hashSync(
 		req.body.password,

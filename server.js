@@ -6,18 +6,10 @@ const app = express();
 const PORT = 3003;
 const MONGODB_URI = 'mongodb://localhost:27017/knowledge';
 const MongoStore = require('connect-mongo')(session);
+const isUser = require('./controllers/auth');
 
 const whitelist = ['http://localhost:3000'];
 const corsOptions = {
-<<<<<<< HEAD
-  origin: (origin, callback) => {
-    if (whitelist.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  }
-=======
 	credentials: true,
 	origin: (origin, callback) => {
 		if (whitelist.indexOf(origin) !== -1) {
@@ -26,15 +18,10 @@ const corsOptions = {
 			callback(new Error('Not allowed by CORS'));
 		}
 	}
->>>>>>> 417e58d642dfdf47d1d9f10896f663e45c42b21c
 };
 
 app.use(express.json());
 app.use(cors(corsOptions));
-<<<<<<< HEAD
-
-=======
->>>>>>> 417e58d642dfdf47d1d9f10896f663e45c42b21c
 
 // Mongoose connection
 mongoose.connection.on('error', err => {
@@ -65,6 +52,10 @@ app.use(
 	})
 );
 
+app.get('/', (req, res) => {
+	res.json({message: "HELP"});
+});
+
 // Controllers
 const userController = require('./controllers/users.js');
 app.use('/users', userController);
@@ -72,10 +63,6 @@ const quizController = require('./controllers/quiz');
 app.use('/quizzes', quizController);
 const sessionsController = require('./controllers/sessions.js');
 app.use('/sessions', sessionsController);
-
-app.get('/', (req, res) => {
-	res.send(`Attention humans, we are observing you on PORT ${PORT}`);
-});
 
 app.listen(PORT, () => {
 	console.log(`Attention all humans, we are observing you on PORT ${PORT}`);

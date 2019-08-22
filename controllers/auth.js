@@ -1,12 +1,15 @@
-const isUser = () => {
+const isUser = (req, res, next) => { 
     //cookie to db compare and logic
-    if (req.headers.cookie) {
-		const cookies = parseCookies(req.headers.cookie);
-        console.log(cookies.sessionid);
-        //find session in db that matecyes
-	} else {
-		console.log('no session yet');
-	}	
+    console.log(req.headers.cookie)
+    console.log(req.session)
+    // if (req.headers.cookie) {
+    //     const cookies = parseCookies(req.headers.cookie);
+    //     if (cookies === req.session.cookie) {
+            next()
+    //     }
+	// } else {
+	// 	res.send('no session yet');
+	// }	
 }
 
 module.exports= isUser;

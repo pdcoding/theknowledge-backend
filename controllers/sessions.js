@@ -22,7 +22,7 @@ users.post('/', (req, res) => {
 // Delete
 users.delete('/', (req, res) => {
 	req.session.destroy(() => {
-		res.redirect('/');
+		// res.redirect('/');
 	});
 	res.clearCookie('user');
 	res.clearCookie('sessionid');

@@ -56,6 +56,22 @@ quizzes.delete('/:id', (req, res) => {
   });
 });
 
+//MAKE a route that pulls all quiz information from a specific quiz
+//create a get route in the quiz controller that pulls all data from the
+//json object of quiz information
+//res.send to call all the info
+
+//Quiz info pull
+quizzes.get('/:id', (req, res) => {
+  Quiz.findById(req.params.id, (err, quizInfo) => {
+    if (err) {
+      res.status(400).json({ error: err.message });
+    } else {
+      res.json(quizInfo);
+    }
+  });
+});
+
 //seed
 // quizzes.get('/seed', (req, res) => {
 //   Quiz.create(seedData, (err, createdQuizzes) => {

@@ -1,6 +1,7 @@
 const express = require('express');
 const quizzes = express.Router();
 const Quiz = require('../models/quiz');
+<<<<<<< HEAD
 const isUser = require('../controllers/auth');
 
 // create
@@ -28,6 +29,18 @@ quizzes.post('/', (req, res) => {
 	// 	}
 	// 	res.status(200).send(createdQuiz);
 	// });
+=======
+const seedData = require('../models/seedModel');
+
+// create
+quizzes.post('/', (req, res) => {
+  Quiz.create(req.body, (err, createdQuiz) => {
+    if (err) {
+      res.status(400).json({ error: err.message });
+    }
+    res.status(200).send(createdQuiz);
+  });
+>>>>>>> 4767ce25e461de8efaa0ba5487ce14133c106132
 });
 
 quizzes.get('/', (req, res) => {
@@ -42,12 +55,22 @@ quizzes.get('/', (req, res) => {
 
 // delete
 quizzes.delete('/:id', (req, res) => {
-	Quiz.findByIdAndRemove(req.params.id, (err, deletedQuiz) => {
-		if (err) {
-			res.status(400).json({ error: err.message });
-		}
-		res.status(200).json(deletedQuiz);
-	});
+  Quiz.findByIdAndRemove(req.params.id, (err, deletedQuiz) => {
+    if (err) {
+      res.status(400).json({ error: err.message });
+    }
+    res.status(200).json(deletedQuiz);
+  });
 });
+
+//seed
+// quizzes.get('/seed', (req, res) => {
+//   Quiz.create(seedData, (err, createdQuizzes) => {
+//     if (err) {
+//       res.status(400).json({ error: err.message });
+//     } else console.log('Successfully seeded data');
+//     res.send('Data successfully seeded');
+//   });
+// });
 
 module.exports = quizzes;

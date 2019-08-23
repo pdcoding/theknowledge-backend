@@ -13,7 +13,8 @@ quizzes.get('/', (req, res) => {
 				caption: allQuizzes[i].caption,
 				image: allQuizzes[i].image,
 				createdBy: allQuizzes[i].createdBy,
-				createdAt: allQuizzes[i].created_at
+				createdAt: allQuizzes[i].created_at,
+				id: allQuizzes[i]._id
 			};
 			quizArray.push(quizObject);
 		}

@@ -8,37 +8,21 @@ const MONGODB_URI = 'mongodb://localhost:27017/knowledge';
 const MongoStore = require('connect-mongo')(session);
 // const isUser = require('./controllers/auth');
 
-<<<<<<< HEAD
+
 const whitelist = ['http://localhost:3000'];
 const corsOptions = {
-  credentials: true,
-  origin: (origin, callback) => {
-    if (whitelist.indexOf(origin) !== -1) {
-      callback(null, true);
-    } else {
-      callback(new Error('Not allowed by CORS'));
-    }
-  }
+	credentials: true,
+	origin: (origin, callback) => {
+		if (whitelist.indexOf(origin) !== -1) {
+			callback(null, true);
+		} else {
+			callback(new Error('Not allowed by CORS'));
+		}
+	}
 };
 
 app.use(express.json());
 app.use(cors(corsOptions));
-=======
-// const whitelist = ['http://localhost:3000'];
-// const corsOptions = {
-// 	credentials: true,
-// 	origin: (origin, callback) => {
-// 		if (whitelist.indexOf(origin) !== -1) {
-// 			callback(null, true);
-// 		} else {
-// 			callback(new Error('Not allowed by CORS'));
-// 		}
-// 	}
-// };
-
-app.use(express.json());
-// app.use(cors(corsOptions));
->>>>>>> fc3d061a2e2309c24adad560087c6d25f8f057ca
 
 // Mongoose connection
 mongoose.connection.on('error', err => {

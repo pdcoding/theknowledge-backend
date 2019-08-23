@@ -7,28 +7,12 @@ const Quiz = require('../models/quiz');
 quizzes.get('/', (req, res) => {
 	Quiz.find({}, (err, allQuizzes) => {
 		let quizArray = [];
-<<<<<<< HEAD
-		for (i=0; i<allQuizzes.length; i++) {
-=======
 		for (i = 0; i < allQuizzes.length; i++) {
->>>>>>> fc3d061a2e2309c24adad560087c6d25f8f057ca
 			let quizObject = {
 				name: allQuizzes[i].name,
 				caption: allQuizzes[i].caption,
 				image: allQuizzes[i].image,
 				createdBy: allQuizzes[i].createdBy,
-<<<<<<< HEAD
-				createdAt: allQuizzes[i].createdAt
-			};
-			quizArray.push(quizObject)
-		}
-	  if (err) {
-		res.status(400).json({ error: err.message });
-	  }
-		res.status(200).send(quizArray);
-	});
-  });
-=======
 				createdAt: allQuizzes[i].created_at
 			};
 			quizArray.push(quizObject);
@@ -39,7 +23,6 @@ quizzes.get('/', (req, res) => {
 		res.status(200).send(quizArray);
 	});
 });
->>>>>>> fc3d061a2e2309c24adad560087c6d25f8f057ca
 
 // create
 quizzes.post('/', (req, res) => {

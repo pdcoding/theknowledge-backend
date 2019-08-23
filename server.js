@@ -6,12 +6,8 @@ const app = express();
 const PORT = 3003;
 const MONGODB_URI = 'mongodb://localhost:27017/knowledge';
 const MongoStore = require('connect-mongo')(session);
-// const isUser = require('./controllers/auth');
+const isUser = require('./controllers/auth');
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 9365858d8129ff0c4bd1a70feb070ffd90db2939
 const whitelist = ['http://localhost:3000'];
 const corsOptions = {
 	credentials: true,

@@ -8,7 +8,8 @@ const quizSchema = new Schema(
     image: String,
     createdBy: String,
     questions: Array,
-    results: Array
+    results: Array,
+    count: { type: Number, default: 0 }
   },
   {
     timestamps: { createdAt: 'created_at', updatedAt: 'updated_at' }

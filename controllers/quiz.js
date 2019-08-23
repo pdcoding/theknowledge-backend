@@ -52,6 +52,21 @@ quizzes.get('/', (req, res) => {
   res.send('test');
 });
 
+//MAKE THE PUT ROUTE FOR THE ITERATOR
+quizzes.put('/:id', (req, res) => {
+  Quiz.findByIdAndUpdate(
+    req.params.id,
+    { $count: { qty: +1 } },
+    (err, updatedCount) => {
+      if (err) {
+        res.status(400).json({ error: err.mesage });
+      } else {
+        res.status(200).send(updatedCount);
+      }
+    }
+  );
+});
+
 // delete
 quizzes.delete('/:id', (req, res) => {
   Quiz.findByIdAndRemove(req.params.id, (err, deletedQuiz) => {

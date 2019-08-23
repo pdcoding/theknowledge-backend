@@ -10,6 +10,7 @@ users.post('/', (req, res) => {
 				req.session.currentUser = foundUser;
 				res.cookie('sessionid', req.session.id, {});
 				res.cookie('user', foundUser.email);
+				res.cookie('userid', String(foundUser._id));
 				res.send('logged in');
 			}
 		} else {

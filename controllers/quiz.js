@@ -80,12 +80,14 @@ quizzes.get('/:id', (req, res) => {
 
 //seed
 // quizzes.get('/seed', (req, res) => {
-//   Quiz.create(seedData, (err, createdQuizzes) => {
-//     if (err) {
-//       res.status(400).json({ error: err.message });
-//     } else console.log('Successfully seeded data');
-//     res.send('Data successfully seeded');
-//   });
+// 	Quiz.create(seedData, (err, createdQuizzes) => {
+// 		if (err) {
+// 			res.status(400).json({ error: err.message });
+// 		} else {
+// 			console.log('Successfully seeded data');
+// 			res.send('Data successfully seeded');
+// 		}
+// 	});
 // });
 
 module.exports = quizzes;

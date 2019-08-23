@@ -14,7 +14,7 @@ quizzes.get('/', (req, res) => {
 				caption: allQuizzes[i].caption,
 				image: allQuizzes[i].image,
 				createdBy: allQuizzes[i].createdBy,
-				createdAt: allQuizzes[i].timestamps.createdAt
+				createdAt: allQuizzes[i].createdAt
 			};
 			quizArray.push(quizObject)
 		}

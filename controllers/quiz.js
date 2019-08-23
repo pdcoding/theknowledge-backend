@@ -1,11 +1,10 @@
 const express = require('express');
 const quizzes = express.Router();
 const Quiz = require('../models/quiz');
-// const seedData = require('../models/seedModel');
+const seedData = require('../models/seedModel');
 
 //index (quizzes list)
 quizzes.get('/', (req, res) => {
-<<<<<<< HEAD
   Quiz.find({}, (err, allQuizzes) => {
     let quizArray = [];
     for (i = 0; i < allQuizzes.length; i++) {
@@ -14,7 +13,8 @@ quizzes.get('/', (req, res) => {
         caption: allQuizzes[i].caption,
         image: allQuizzes[i].image,
         createdBy: allQuizzes[i].createdBy,
-        createdAt: allQuizzes[i].created_at
+        createdAt: allQuizzes[i].created_at,
+        id: allQuizzes[i]._id
       };
       quizArray.push(quizObject);
     }
@@ -23,26 +23,6 @@ quizzes.get('/', (req, res) => {
     }
     res.status(200).send(quizArray);
   });
-=======
-	Quiz.find({}, (err, allQuizzes) => {
-		let quizArray = [];
-		for (i = 0; i < allQuizzes.length; i++) {
-			let quizObject = {
-				name: allQuizzes[i].name,
-				caption: allQuizzes[i].caption,
-				image: allQuizzes[i].image,
-				createdBy: allQuizzes[i].createdBy,
-				createdAt: allQuizzes[i].created_at,
-				id: allQuizzes[i]._id
-			};
-			quizArray.push(quizObject);
-		}
-		if (err) {
-			res.status(400).json({ error: err.message });
-		}
-		res.status(200).send(quizArray);
-	});
->>>>>>> 9365858d8129ff0c4bd1a70feb070ffd90db2939
 });
 
 // create
@@ -87,6 +67,19 @@ quizzes.delete('/:id', (req, res) => {
 //json object of quiz information
 //res.send to call all the info
 
+//seed
+quizzes.get('/seed', (req, res) => {
+  console.log('Attempting to seed');
+  Quiz.create(seedData, (err, createdQuizzes) => {
+    if (err) {
+      res.status(400).json({ error: err.message });
+    } else {
+      console.log('Successfully seeded data');
+      res.send('Data successfully seeded');
+    }
+  });
+});
+
 //Quiz info pull
 quizzes.get('/:id', (req, res) => {
   Quiz.findById(req.params.id, (err, quizInfo) => {
@@ -97,17 +90,6 @@ quizzes.get('/:id', (req, res) => {
     }
   });
 });
-
-//seed
-quizzes.get('/seed', (req, res) => {
-  Quiz.create(seedData, (err, createdQuizzes) => {
-    if (err) {
-      res.status(400).json({ error: err.message });
-    } else console.log('Successfully seeded data');
-    res.send('Data successfully seeded');
-  });
-});
-
 module.exports = quizzes;
 
 // Adapted from https://stackoverflow.com/questions/3393854/

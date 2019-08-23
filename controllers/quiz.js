@@ -1,7 +1,7 @@
 const express = require('express');
 const quizzes = express.Router();
 const Quiz = require('../models/quiz');
-// const seedData = require('../models/seedModel');
+const seedData = require('../models/seedModel');
 
 //index (quizzes list)
 quizzes.get('/', (req, res) => {
@@ -52,6 +52,21 @@ quizzes.get('/', (req, res) => {
 	res.send('test');
 });
 
+//MAKE THE PUT ROUTE FOR THE ITERATOR
+quizzes.put('/:id', (req, res) => {
+	Quiz.findByIdAndUpdate(
+		req.params.id,
+		{ $count: { qty: +1 } },
+		(err, updatedCount) => {
+			if (err) {
+				res.status(400).json({ error: err.mesage });
+			} else {
+				res.status(200).send(updatedCount);
+			}
+		}
+	);
+});
+
 // delete
 quizzes.delete('/:id', (req, res) => {
 	Quiz.findByIdAndRemove(req.params.id, (err, deletedQuiz) => {
@@ -67,6 +82,19 @@ quizzes.delete('/:id', (req, res) => {
 //json object of quiz information
 //res.send to call all the info
 
+//seed
+quizzes.get('/seed', (req, res) => {
+	console.log('Attempting to seed');
+	Quiz.create(seedData, (err, createdQuizzes) => {
+		if (err) {
+			res.status(400).json({ error: err.message });
+		} else {
+			console.log('Successfully seeded data');
+			res.send('Data successfully seeded');
+		}
+	});
+});
+
 //Quiz info pull
 quizzes.get('/:id', (req, res) => {
 	Quiz.findById(req.params.id, (err, quizInfo) => {
@@ -77,18 +105,6 @@ quizzes.get('/:id', (req, res) => {
 		}
 	});
 });
-
-//seed
-// quizzes.get('/seed', (req, res) => {
-// 	Quiz.create(seedData, (err, createdQuizzes) => {
-// 		if (err) {
-// 			res.status(400).json({ error: err.message });
-// 		} else {
-// 			console.log('Successfully seeded data');
-// 			res.send('Data successfully seeded');
-// 		}
-// 	});
-// });
 
 module.exports = quizzes;
 

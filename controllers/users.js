@@ -22,6 +22,17 @@ users.post('/', (req, res) => {
 	});
 });
 
+// Get Display Name
+users.get('/:id', (req, res) => {
+	User.findById(req.params.id, (err, userInfo) => {
+		if (err) {
+			res.status(400).json({ error: err.message });
+		} else {
+			res.send(userInfo.displayName);
+		}
+	});
+});
+
 module.exports = users;
 
 // Adapted from https://stackoverflow.com/questions/3393854/

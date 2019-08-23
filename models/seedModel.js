@@ -225,78 +225,78 @@ module.exports = [
   answer4Image: 'https://orlandoparkstop.com/wp-content/uploads/2018/01/ollivandersmain.jpg',
   answer4Result: 0
  },
- {
-  question: '',
-  answer1: '',
-  answer1Image: '',
-  answer1Result: ,
+//  {
+//   question: '',
+//   answer1: '',
+//   answer1Image: '',
+//   answer1Result:'' ,
 
-  answer2: '',
-  answer2Image: '',
-  answer2Result: ,
+//   answer2: '',
+//   answer2Image: '',
+//   answer2Result: ,
 
-  answer3: '',
-  answer3Image: '',
-  answer3Result: ,
+//   answer3: '',
+//   answer3Image: '',
+//   answer3Result: '',
 
-  answer4: '',
-  answer4Image: '',
-  answer4Res
- }, 
- {
-  question: '',
-  answer1: '',
-  answer1Image: '',
-  answer1Result: ,
+//   answer4: '',
+//   answer4Image: '',
+//   answer4Res'
+//  }, 
+//  {
+//   question: '',
+//   answer1: '',
+//   answer1Image: '',
+//   answer1Result: ,
 
-  answer2: '',
-  answer2Image: '',
-  answer2Result: ,
+//   answer2: '',
+//   answer2Image: '',
+//   answer2Result: ,
 
-  answer3: '',
-  answer3Image: '',
-  answer3Result: ,
+//   answer3: '',
+//   answer3Image: '',
+//   answer3Result: ,
 
-  answer4: '',
-  answer4Image: '',
-  answer4Res
- },
- {
-  question: '',
-  answer1: '',
-  answer1Image: '',
-  answer1Result: ,
+//   answer4: '',
+//   answer4Image: '',
+//   answer4Res
+//  },
+//  {
+//   question: '',
+//   answer1: '',
+//   answer1Image: '',
+//   answer1Result: ,
 
-  answer2: '',
-  answer2Image: '',
-  answer2Result: ,
+//   answer2: '',
+//   answer2Image: '',
+//   answer2Result: ,
 
-  answer3: '',
-  answer3Image: '',
-  answer3Result: ,
+//   answer3: '',
+//   answer3Image: '',
+//   answer3Result: ,
 
-  answer4: '',
-  answer4Image: '',
-  answer4Res
- },
- {
-  question: '',
-  answer1: '',
-  answer1Image: '',
-  answer1Result: ,
+//   answer4: '',
+//   answer4Image: '',
+//   answer4Res
+//  },
+//  {
+//   question: '',
+//   answer1: '',
+//   answer1Image: '',
+//   answer1Result: ,
 
-  answer2: '',
-  answer2Image: '',
-  answer2Result: ,
+//   answer2: '',
+//   answer2Image: '',
+//   answer2Result: ,
 
-  answer3: '',
-  answer3Image: '',
-  answer3Result: ,
+//   answer3: '',
+//   answer3Image: '',
+//   answer3Result: ,
 
-  answer4: '',
-  answer4Image: '',
-  answer4Res
- },
+//   answer4: '',
+//   answer4Image: '',
+//   answer4Res
+//  },
  {
  results: [
    {

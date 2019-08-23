@@ -5,7 +5,6 @@ const seedData = require('../models/seedModel');
 
 //index (quizzes list)
 quizzes.get('/', (req, res) => {
-<<<<<<< HEAD
 	Quiz.find({}, (err, allQuizzes) => {
 		let quizArray = [];
 		for (i=0; i<allQuizzes.length; i++) {
@@ -23,26 +22,7 @@ quizzes.get('/', (req, res) => {
 	  }
 		res.status(200).send(quizArray);
 	});
-=======
-  Quiz.find({}, (err, allQuizzes) => {
-    let quizArray = [];
-    for (i = 0; i < allQuizzes.length; i++) {
-      let quizObject = {
-        name: allQuizzes[i].name,
-        caption: allQuizzes[i].caption,
-        image: allQuizzes[i].image,
-        createdBy: allQuizzes[i].createdBy,
-        createdAt: allQuizzes[i].timestamps.createdAt
-      };
-      quizArray.push(quizObject);
-    }
-    if (err) {
-      res.status(400).json({ error: err.message });
-    }
-    res.status(200).send(quizArray);
->>>>>>> c0a5af57739ee85426d7418f1907129d29ecc9ff
   });
-});
 
 // create
 quizzes.post('/', (req, res) => {

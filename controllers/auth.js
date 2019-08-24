@@ -1,4 +1,4 @@
-// const isUser = (req, res, next) => { 
+// const isUser = (req, res, next) => {
 //     //cookie to db compare and logic
 //     console.log(req.headers.cookie)
 //     console.log(req.session)
@@ -9,7 +9,7 @@
 //     //     }
 // 	// } else {
 // 	// 	res.send('no session yet');
-// 	// }	
+// 	// }
 // };
 
 // module.exports= isUser;

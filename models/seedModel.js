@@ -373,7 +373,7 @@ module.exports = [
 	},
 	{
 		name: 'Which Avenger are you?',
-		caption: `Find out which of Earth's`,
+		caption: `Find out which of Earth's mightiest heroes you are.`,
 		image: 'http://localhostr.com/file/6m6sHp8/avddd.gif',
 		createdBy: 'petertingle89',
 		questions: [
@@ -381,7 +381,7 @@ module.exports = [
 				question: 'Where do you live?',
 				answer1: 'Queens',
 				answer1img:
-					'https://www.tripsavvy.com/thmb/U21ZugY_qGqXDTSVLCvRd_u2KRM=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-554305727-5946cbb43df78c537bf59fc9.jpg',
+					'https://upload.wikimedia.org/wikipedia/commons/b/b4/Flushing%2C_Queens%2C_NY%2C_USA_-_panoramio_%281%29.jpg',
 				answer1result: 0,
 
 				answer2: 'Asgard',
@@ -533,6 +533,407 @@ module.exports = [
 				result: 'Iron Man',
 				resultImage: 'https://media2.giphy.com/media/Q3pp9Y6LxBvoI/giphy.gif',
 				resultCaption: 'You are Iron Man!'
+			}
+		]
+	},
+	{
+		name: 'Are you a dog?',
+		caption: 'Find out what breed of dog you are!',
+		image: 'https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif',
+		createdBy: 'xXg00db0yXx',
+		questions: [
+			{
+				question: 'Are you well behaved?',
+				answer1: 'Of course!',
+				answer1img:
+					'data:image/jpeg;base64,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',
+				answer1result: 0,
+
+				answer2: 'I am a bit destructive',
+				answer2img:
+					'https://www.talenttalks.net/wp-content/uploads/2018/04/Series-GFX-Re-Nuclear-series-post.jpg',
+				answer2result: 1,
+
+				answer3: 'Mostly',
+				answer3img:
+					'https://tundeswriting.files.wordpress.com/2012/08/out-of-place.jpg',
+				answer3result: 2,
+
+				answer4: 'Not always',
+				answer4img:
+					'https://images-na.ssl-images-amazon.com/images/I/61ehjFjV9LL._AC_SY400_.jpg',
+				answer4result: 3
+			},
+			{
+				question: 'How much energy do you have?',
+				answer1: 'Not much',
+				answer1img:
+					'https://ak2.picdn.net/shutterstock/videos/1014950902/thumb/1.jpg',
+				answer1result: 2,
+
+				answer2: 'Great Scott!',
+				answer2img: 'https://i.vimeocdn.com/video/556424060.webp?mw=900&mh=506',
+				answer2result: 1,
+
+				answer4: 'Always ready to go!',
+				answer4img:
+					'https://assets3.thrillist.com/v1/image/1444853/size/tmg-facebook_social.jpg',
+				answer4result: 3,
+
+				answer3: 'Enough',
+				answer3img: 'https://i.ytimg.com/vi/Ympn3i8o_zQ/maxresdefault.jpg',
+				answer3result: 0
+			},
+			{
+				question: 'Do you like to snuggle?',
+				answer1: 'No',
+				answer1img:
+					'https://mlpforums.com/uploads/post_images/img-2311466-1-hahaha-no.jpg',
+				answer1result: 1,
+
+				answer2: 'Yes',
+				answer2img: 'http://i.imgur.com/zUFVcB6.jpg',
+				answer2result: 0,
+
+				answer3: 'Whether you like it or not...',
+				answer3img:
+					'https://s3.hulkshare.com/song_images/original/a/7/2/a72da7650c43ef7437efbdd53deeaf7d.jpg?dd=1388552400',
+				answer3result: 3,
+
+				answer4: 'Sometimes',
+				answer4img:
+					'https://khn.org/wp-content/uploads/sites/2/2019/04/halftrue.jpg',
+				answer4result: 2
+			}
+		],
+		results: [
+			{
+				result: 'Golden',
+				resultImage:
+					'https://media1.giphy.com/media/3ndAvMC5LFPNMCzq7m/giphy.gif',
+				resultCaption: 'Congrats! You are a lovable golden!'
+			},
+			{
+				result: 'Husky',
+				resultImage: 'https://i.imgur.com/TSDJQPC.gif',
+				resultCaption: 'Congrats! You are a Husk - oh no. What is happening?'
+			},
+			{
+				result: 'Corgi',
+				resultImage: 'https://media3.giphy.com/media/KLbq09EoE1uDu/giphy.gif',
+				resultCaption: 'Congrats! You are a Corgi. How exciting!'
+			},
+			{
+				result: 'Australian Shepherd',
+				resultImage:
+					'https://media2.giphy.com/media/l0unkiodQqmA3lPO5e/giphy.gif',
+				resultCaption: 'Congrats! You are an Aussie! High five!'
+			}
+		]
+	},
+	{
+		name: 'Which Friend are you?',
+		caption: 'Find out which of the Friends you are.',
+		image: 'https://www.jmgads.com/vjsite/wiki/friends.jpg',
+		createdBy: 'wewereonabreak94',
+		questions: [
+			{
+				question: 'Which of these is your favorite activity?',
+				answer1: 'Eating',
+				answer1img:
+					'https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1066378122%2F960x0.jpg%3Ffit%3Dscale',
+				answer1result: 3,
+
+				answer2: 'Cleaning',
+				answer2img:
+					'https://www.blf.org.uk/sites/default/files/styles/default/public/cleaning%20decorating%20vocs%20lungs%202016.jpg?itok=jPy-i5L4',
+				answer2result: 1,
+
+				answer3: 'Shopping',
+				answer3img:
+					'https://upload.wikimedia.org/wikipedia/commons/b/bf/Baneasa_Shopping_City_%2820160207_130045_1PS_0%29_%2828801719321%29.jpg',
+				answer3result: 4,
+
+				answer4: 'Getting divorced',
+				answer4img:
+					'https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/04/06/13/divorce.jpg',
+				answer4result: 0
+			},
+			{
+				question: 'What is your career?',
+				answer1: 'Something boring',
+				answer1img:
+					'https://informationtechnologypress.files.wordpress.com/2012/02/bored-with-computer-300x199.jpg',
+				answer1result: 2,
+
+				answer2: 'Acting',
+				answer2img:
+					'http://www.actingbiz.com/assets/images/articles/049.jpg',
+				answer2result: 3,
+
+				answer3: 'Paleontology',
+				answer3img:
+					'https://images.labroots.com/content_tag_profile_image_18d4ef1779e39495053b2026d60df9cd37b58ae5_5237.jpg',
+				answer3result: 0,
+
+				answer4: 'Masseuse',
+				answer4img:
+					'https://getmassagetable.com/wp-content/uploads/2017/09/Massage-Table.jpg',
+				answer4result: 5
+			},
+			{
+				question: 'What is your dream?',
+				answer1: 'To be a chef',
+				answer1img:
+					'https://static.turbosquid.com/Preview/2016/02/07__01_16_51/1.jpgfb8b2202-8da8-44c1-b426-058eaab7b80aOriginal.jpg',
+				answer1result: 1,
+
+				answer2: 'To be married and not get divorced',
+				answer2img:
+					'https://www.nextadvisor.com/wp-content/uploads/2018/02/bigstock-164138135.jpg',
+				answer2result: 0,
+
+				answer3: 'To win an Oscar',
+				answer3img:
+					'https://www.liveabout.com/thmb/t3119-dj4cOvEBhu8s2khH6_OYY=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/academy-of-motion-picture-arts-and-sciences---discover-the-academy--with-geoffrey-fletcher-142848283-5c759444c9e77c0001e98d4a.jpg',
+				answer3result: 3,
+
+				answer4: 'To be a musician',
+				answer4img:
+					'https://cdn2.rsc.org.uk/sitefinity/images/buildings-and-objects/audiences/audience_photos_july_2015-_2015_photo_by_david_tett_c_rsc_167796.tmb-img-912.jpg?sfvrsn=8cdf5d21_1',
+				answer4result: 5
+			},
+		],
+		results: [
+			{
+				result: 'Ross Geller',
+				resultImage:
+					'https://media3.giphy.com/media/AOo5AVBboFRvi/source.gif',
+				resultCaption: 'You are The Ross!'
+			},
+			{
+				result: 'Monica Geller',
+				resultImage: 'https://media1.giphy.com/media/IdyHPMy8eqZ68/giphy.gif',
+				resultCaption: "You are Monica. Hope you didn't get a question wrong."
+			},
+			{
+				result: 'Chandler Bing',
+				resultImage: 'https://media2.giphy.com/media/umQ1MyJL23NAs/source.gif',
+				resultCaption: 'Well, hello Ms. Chanandler Bong.'
+			},
+			{
+				result: 'Joey Tribbiani',
+				resultImage:
+					'https://media2.giphy.com/media/11ykUODgXjAXZu/source.gif',
+				resultCaption: 'You are Joey. Better go find your turkey eating pants.'
+			},
+			{
+				result: 'Rachel Green',
+				resultImage:
+					'https://media.giphy.com/media/lKL2F4BrnYsJW/giphy.gif',
+				resultCaption: 'You are Rachel. Were you on a break?'
+			},
+			{
+				result: 'Phoebe Buffay',
+				resultImage:
+					'https://i.gifer.com/3sQO.gif',
+				resultCaption: 'You are Phoebe. FEE - BEE!'
+			}
+		]
+	},
+	{
+		name: '',
+		caption: '',
+		image: '',
+		createdBy: '',
+		questions: [
+			{
+				question: '',
+				answer1: '',
+				answer1img:
+					'',
+				answer1result: ,
+
+				answer2: '',
+				answer2img:
+					'',
+				answer2result: ,
+
+				answer3: '',
+				answer3img:
+					'',
+				answer3result: ,
+
+				answer4: '',
+				answer4img:
+					'',
+				answer4result:
+			},
+			{
+				question: '',
+				answer1: '',
+				answer1img:
+					'',
+				answer1result: ,
+
+				answer2: '',
+				answer2img:
+					'',
+				answer2result: ,
+
+				answer3: '',
+				answer3img:
+					'',
+				answer3result: ,
+
+				answer4: '',
+				answer4img:
+					'',
+				answer4result:
+			},
+			{
+				question: '',
+				answer1: '',
+				answer1img:
+					'',
+				answer1result: ,
+
+				answer2: '',
+				answer2img:
+					'',
+				answer2result: ,
+
+				answer3: '',
+				answer3img:
+					'',
+				answer3result: ,
+
+				answer4: '',
+				answer4img:
+					'',
+				answer4result:
+			},
+		],
+		results: [
+			{
+				result: '',
+				resultImage:
+					'',
+				resultCaption: ''
+			},
+			{
+				result: '',
+				resultImage: '',
+				resultCaption: ''
+			},
+			{
+				result: '',
+				resultImage: '',
+				resultCaption: ''
+			},
+			{
+				result: '',
+				resultImage:
+					'',
+				resultCaption: ''
+			}
+		]
+	},
+	{
+		name: '',
+		caption: '',
+		image: '',
+		createdBy: '',
+		questions: [
+			{
+				question: '',
+				answer1: '',
+				answer1img:
+					'',
+				answer1result: ,
+
+				answer2: '',
+				answer2img:
+					'',
+				answer2result: ,
+
+				answer3: '',
+				answer3img:
+					'',
+				answer3result: ,
+
+				answer4: '',
+				answer4img:
+					'',
+				answer4result:
+			},
+			{
+				question: '',
+				answer1: '',
+				answer1img:
+					'',
+				answer1result: ,
+
+				answer2: '',
+				answer2img:
+					'',
+				answer2result: ,
+
+				answer3: '',
+				answer3img:
+					'',
+				answer3result: ,
+
+				answer4: '',
+				answer4img:
+					'',
+				answer4result:
+			},
+			{
+				question: '',
+				answer1: '',
+				answer1img:
+					'',
+				answer1result: ,
+
+				answer2: '',
+				answer2img:
+					'',
+				answer2result: ,
+
+				answer3: '',
+				answer3img:
+					'',
+				answer3result: ,
+
+				answer4: '',
+				answer4img:
+					'',
+				answer4result:
+			},
+		],
+		results: [
+			{
+				result: '',
+				resultImage:
+					'',
+				resultCaption: ''
+			},
+			{
+				result: '',
+				resultImage: '',
+				resultCaption: ''
+			},
+			{
+				result: '',
+				resultImage: '',
+				resultCaption: ''
+			},
+			{
+				result: '',
+				resultImage:
+					'',
+				resultCaption: ''
 			}
 		]
 	}

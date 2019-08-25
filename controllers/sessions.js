@@ -12,6 +12,8 @@ users.post('/', (req, res) => {
 				res.cookie('user', foundUser.email);
 				res.cookie('userid', String(foundUser._id));
 				res.send('logged in');
+				// console.log('LOGGED IN USER BELOW');
+				// console.log(foundUser);
 			}
 		} else {
 			res.status(200);

@@ -341,8 +341,7 @@ module.exports = [
 		results: [
 			{
 				result: 'You got Harry Potter!',
-				resultImage:
-					'https://cdn.vox-cdn.com/thumbor/90uUqtYCkktMhip2ZqxbdkUKk1g=/0x0:1532x1270/1200x800/filters:focal(791x198:1035x442)/cdn.vox-cdn.com/uploads/chorus_image/image/59589497/firebolt.0.png',
+				resultImage: 'https://i.giphy.com/mz1kJeDVueKC4.gif',
 				resultCaption: "Congratulations! You are the 'boy who lived'!"
 			},
 			{

@@ -31,7 +31,8 @@ quizzes.post('/', (req, res) => {
 	const userObjectID = cookies.userid;
 	const updatedQuiz = req.body;
 	Object.assign(updatedQuiz, { createdBy: userObjectID });
-	console.log(updatedQuiz);
+	// console.log('CREATED QUIZ BELOW')
+	// console.log(updatedQuiz);
 
 	Quiz.create(updatedQuiz, (err, createdQuiz) => {
 		if (err) {
@@ -45,11 +46,10 @@ quizzes.post('/', (req, res) => {
 quizzes.get('/', (req, res) => {
 	//auth logic here
 	// do an axios call to this route
-	console.log(req.headers.cookie);
-	console.log(req.session);
-	console.log('test');
-
-	res.send('test');
+	// console.log(req.headers.cookie);
+	// console.log(req.session);
+	// console.log('test');
+	res.send('You have found The Knowledges backend!');
 });
 
 //MAKE THE PUT ROUTE FOR THE ITERATOR

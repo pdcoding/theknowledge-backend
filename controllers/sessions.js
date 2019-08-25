@@ -29,6 +29,7 @@ users.delete('/', (req, res) => {
 	});
 	res.clearCookie('user');
 	res.clearCookie('sessionid');
+	res.clearCookie('userid');
 	res.send('logout successful');
 });
 

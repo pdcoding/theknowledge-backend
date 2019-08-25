@@ -371,5 +371,170 @@ module.exports = [
 				resultCaption: 'Congratulations! Oh wait, are those nargles?'
 			}
 		]
+	},
+	{
+		name: 'Which Avenger are you?',
+		caption: `Find out which of Earth's`,
+		image: 'http://localhostr.com/file/6m6sHp8/avddd.gif',
+		createdBy: 'petertingle89',
+		questions: [
+			{
+				question: 'Where do you live?',
+				answer1: 'Queens',
+				answer1img:
+					'https://www.tripsavvy.com/thmb/U21ZugY_qGqXDTSVLCvRd_u2KRM=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-554305727-5946cbb43df78c537bf59fc9.jpg',
+				answer1result: 0,
+
+				answer2: 'Asgard',
+				answer2img:
+					'https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/2/26/AsgardFull.jpg/revision/latest?cb=20180421164352',
+				answer2result: 1,
+
+				answer3: 'Malibu',
+				answer3img:
+					'https://housekaboodle.com/wp-content/uploads/2014/01/Iron-Man-movie-house-2013-screenshot.jpg',
+				answer3result: 4,
+
+				answer4: 'Someplace cold',
+				answer4img:
+					'https://previews.123rf.com/images/oleandra/oleandra1505/oleandra150500051/39488154-wet-ice-cubes-on-blue.jpg',
+				answer4result: 3
+			},
+			{
+				question: 'How would you describe yourself?',
+				answer1: 'Angry',
+				answer1img:
+					'http://foxemerson.com/wp-content/uploads/2017/03/We-seem-to-be-angry-all-the-time-Fox-Emerson.jpg',
+				answer1result: 2,
+
+				answer2: 'Genius Billionare Playboy Philanthropist',
+				answer2img:
+					'https://image-cdn.neatoshop.com/styleimg/41586/none/black/default/288670-20;1454628786t.jpg',
+				answer2result: 4,
+
+				answer3: 'Friendly',
+				answer3img:
+					'https://cdn.shopify.com/s/files/1/1116/5980/products/FriendlyGrip2_c05bede5-b50b-4595-a2db-4ed724ba4e37_1024x1024.jpg?v=1546518424',
+				answer3result: 0,
+
+				answer4: 'Strongest',
+				answer4img:
+					'https://media.distractify.com/brand-img/bk0mXJTM2/0x0/strongest-man-in-history-monte-saldo-1565197674595.jpg',
+				answer4result: 1
+			},
+			{
+				question: 'How did you get your abilities?',
+				answer1: 'Radiation',
+				answer1img:
+					'https://images2.minutemediacdn.com/image/upload/c_crop,h_1193,w_2121,x_0,y_97/f_auto,q_auto,w_1100/v1554927775/shape/mentalfloss/541196-istock-668710858.jpg',
+				answer1result: 2,
+
+				answer2: 'Bit by a spider',
+				answer2img:
+					'https://www.insideedition.com/sites/default/files/styles/931x523/public/images/2019-04/spider.jpg?h=c673cd1c&itok=Aj3NevKl',
+				answer2result: 0,
+
+				answer3: 'The Government',
+				answer3img:
+					'https://images.homedepot-static.com/productImages/eb1ae7fd-23a8-42f4-8d4c-1872e54fcae1/svn/anley-house-flags-a-flag-us-retro-64_1000.jpg',
+				answer3result: 3,
+
+				answer4: 'Born this way',
+				answer4img:
+					'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4omPkr28RepBcv5-lRIj5hJkaC4cjMFNNFRZB_iUbrmscIuJcw',
+				answer4result: 1
+			},
+			{
+				question: 'What is/are your favorite color(s)?',
+				answer1: 'Red and gold',
+				answer1img:
+					'https://ak4.picdn.net/shutterstock/videos/15254434/thumb/1.jpg',
+				answer1result: 4,
+
+				answer2: 'Green and purple',
+				answer2img:
+					'https://ak5.picdn.net/shutterstock/videos/22179505/thumb/1.jpg',
+				answer2result: 2,
+
+				answer3: 'Red and blue',
+				answer3img:
+					'https://previews.123rf.com/images/manopjk/manopjk1708/manopjk170800019/83323548-abstract-speech-bubble-with-red-and-blue-background-pop-art-comic-book-vector-illustration.jpg',
+				answer3result: 0,
+
+				answer4: 'Blue and white',
+				answer4img: 'https://ichef.bbci.co.uk/images/ic/1280xn/p061076s.jpg',
+				answer4result: 1
+			},
+			{
+				question: 'What is your goal?',
+				answer1: 'Protect America',
+				answer1img:
+					'https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2018/03/p-2-america-pursues-happiness-but-its-getting-less-and-less-happy.jpg',
+				answer1result: 3,
+
+				answer2: 'Protect your neighborhood',
+				answer2img:
+					'https://media.architecturaldigest.com/photos/5cc35bea39b7d6ac4b1b2675/16:9/w_1280,c_limit/GettyImages-960609922.jpg',
+				answer2result: 0,
+
+				answer3: 'To help people',
+				answer3img:
+					'https://targetcareers.co.uk/sites/targetcareers.co.uk/files/public/styles/header_1500x550/public/field/image/i-want-a-career-helping-people.jpg?itok=8vmo3Fum',
+				answer3result: 2,
+
+				answer4: 'To save the world',
+				answer4img:
+					'https://thenypost.files.wordpress.com/2018/09/180925-earth-wobbly-more-than-normal-feature.jpg?quality=90&strip=all&w=618&h=410&crop=1',
+				answer4result: 4
+			},
+			{
+				question: 'Are you worthy of Mjolnir?',
+				answer1: 'Eventually',
+				answer1img: 'https://wallpaperplay.com/walls/full/c/d/6/90062.jpg',
+				answer1result: 3,
+
+				answer2: "Don't want it.",
+				answer2img: 'https://i.redd.it/jahha375y2301.jpg',
+				answer2result: 4,
+
+				answer3: 'I hope so...',
+				answer3img:
+					'https://i.pinimg.com/originals/63/89/ed/6389ed8cfed59243c19150e5246b46a3.jpg',
+				answer3result: 0,
+
+				answer4: 'Of course!',
+				answer4img:
+					'https://pre00.deviantart.net/b8d5/th/pre/i/2015/177/7/3/thor_minimalist_by_lokilipssewnshut-d7jg9nd.jpg',
+				answer4result: 1
+			}
+		],
+		results: [
+			{
+				result: 'Spider-Man',
+				resultImage:
+					'https://media.giphy.com/media/dtVqfRspKR5bDVycse/giphy.gif',
+				resultCaption: 'Congrats, tiger. You got Spider-Man'
+			},
+			{
+				result: 'Thor',
+				resultImage: 'https://data.whicdn.com/images/313284898/original.gif',
+				resultCaption: 'You got the God of Thunder!'
+			},
+			{
+				result: 'Hulk',
+				resultImage: 'https://media2.giphy.com/media/70FR7uV2V1qta/source.gif',
+				resultCaption: 'You got the Hulk. SMASH!'
+			},
+			{
+				result: 'Captain America',
+				resultImage: 'https://giffiles.alphacoders.com/691/6911.gif',
+				resultCaption: 'You are the First Avenger!'
+			},
+			{
+				result: 'Iron Man',
+				resultImage: 'https://media2.giphy.com/media/Q3pp9Y6LxBvoI/giphy.gif',
+				resultCaption: 'You are Iron Man!'
+			}
+		]
 	}
 ];

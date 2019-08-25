@@ -10,11 +10,12 @@ quizzes.get('/', (req, res) => {
 		for (i = 0; i < allQuizzes.length; i++) {
 			let quizObject = {
 				name: allQuizzes[i].name,
-				caption: allQuizzes[i].caption,
+				// caption: allQuizzes[i].caption,
 				image: allQuizzes[i].image,
 				createdBy: allQuizzes[i].createdBy,
 				createdAt: allQuizzes[i].created_at,
-				id: allQuizzes[i]._id
+				id: allQuizzes[i]._id,
+				count: allQuizzes[i].count
 			};
 			quizArray.push(quizObject);
 		}
@@ -56,7 +57,7 @@ quizzes.get('/', (req, res) => {
 quizzes.put('/:id', (req, res) => {
 	Quiz.findByIdAndUpdate(
 		req.params.id,
-		{ $count: { qty: +1 } },
+		{ $inc: { count: 1 } },
 		(err, updatedCount) => {
 			if (err) {
 				res.status(400).json({ error: err.mesage });

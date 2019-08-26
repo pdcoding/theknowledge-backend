@@ -667,8 +667,7 @@ module.exports = [
 				answer1result: 2,
 
 				answer2: 'Acting',
-				answer2img:
-					'http://www.actingbiz.com/assets/images/articles/049.jpg',
+				answer2img: 'http://www.actingbiz.com/assets/images/articles/049.jpg',
 				answer2result: 3,
 
 				answer3: 'Paleontology',
@@ -702,13 +701,12 @@ module.exports = [
 				answer4img:
 					'https://cdn2.rsc.org.uk/sitefinity/images/buildings-and-objects/audiences/audience_photos_july_2015-_2015_photo_by_david_tett_c_rsc_167796.tmb-img-912.jpg?sfvrsn=8cdf5d21_1',
 				answer4result: 5
-			},
+			}
 		],
 		results: [
 			{
 				result: 'Ross Geller',
-				resultImage:
-					'https://media3.giphy.com/media/AOo5AVBboFRvi/source.gif',
+				resultImage: 'https://media3.giphy.com/media/AOo5AVBboFRvi/source.gif',
 				resultCaption: 'You are The Ross!'
 			},
 			{
@@ -723,24 +721,22 @@ module.exports = [
 			},
 			{
 				result: 'Joey Tribbiani',
-				resultImage:
-					'https://media2.giphy.com/media/11ykUODgXjAXZu/source.gif',
+				resultImage: 'https://media2.giphy.com/media/11ykUODgXjAXZu/source.gif',
 				resultCaption: 'You are Joey. Better go find your turkey eating pants.'
 			},
 			{
 				result: 'Rachel Green',
-				resultImage:
-					'https://media.giphy.com/media/lKL2F4BrnYsJW/giphy.gif',
+				resultImage: 'https://media.giphy.com/media/lKL2F4BrnYsJW/giphy.gif',
 				resultCaption: 'You are Rachel. Were you on a break?'
 			},
 			{
 				result: 'Phoebe Buffay',
-				resultImage:
-					'https://i.gifer.com/3sQO.gif',
+				resultImage: 'https://i.gifer.com/3sQO.gif',
 				resultCaption: 'You are Phoebe. FEE - BEE!'
 			}
 		]
 	},
+<<<<<<< HEAD
 	{//peter
 		name: 'What type of pizza are you?',
 		caption: 'Find out what type of pizza you are!',
@@ -809,10 +805,179 @@ module.exports = [
 				answer4img:
 					'https://images-na.ssl-images-amazon.com/images/I/911m9JeBTTL._UL1500_.jpg',
 				answer4result: 2
+=======
+	{
+		name: 'What Sci-Fi Vehicle Are You?',
+		caption: 'Find our which science fiction mode of transport you are.',
+		image: 'https://i.gifer.com/W9xz.gif',
+		createdBy: 'sci-fan69',
+		questions: [
+			{
+				question: 'What powers you?',
+				answer1: 'Flux Capacitor',
+				answer1img:
+					'https://images-na.ssl-images-amazon.com/images/I/516smOS%2BnbL.jpg',
+				answer1result: 3,
+
+				answer2: 'Quadex Power Core',
+				answer2img:
+					'https://static.turbosquid.com/Preview/2016/02/07__01_16_51/1.jpgfb8b2202-8da8-44c1-b426-058eaab7b80aOriginal.jpg',
+				answer2result: 0,
+
+				answer3: 'The Eye of Harmony',
+				answer3img: 'https://i.ytimg.com/vi/rDWdEKQb58A/maxresdefault.jpg',
+				answer3result: 1,
+
+				answer4: 'Warp Drive',
+				answer4img: 'https://i.ytimg.com/vi/aRk-DQUUlz8/maxresdefault.jpg',
+				answer4result: 2
+			},
+			{
+				question: 'How would you describe your captain?',
+				answer1: 'Scruffy-looking nerf herder',
+				answer1img:
+					'https://www.bosshunting.com.au/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTU2NTUyNTY2NDUxMjE3NDk5/han-solo-return-of-the-jedi.jpg',
+				answer1result: 0,
+
+				answer2: 'Which one?',
+				answer2img:
+					'https://fsmedia.imgix.net/1b/56/24/f2/70df/40dc/983d/44dd311b8d3d/doctors-3jpg.jpeg?auto=format%2Ccompress&dpr=2&w=650',
+				answer2result: 1,
+
+				answer3: 'Crazy, but probably a genius',
+				answer3img:
+					'https://cdna.artstation.com/p/assets/images/images/008/865/742/large/borislav-mitkov-docbrowntest02.jpg?1515768870',
+				answer3result: 3,
+
+				answer4: 'He likes Earl Grey tea - hot.',
+				answer4img:
+					'https://pmctvline2.files.wordpress.com/2018/09/star-trek-patrick-stewart-jean-luc-picard-series-photo.jpeg?w=620&h=420&crop=1',
+				answer4result: 2
+			},
+			{
+				question: 'What is your defining characteristic?',
+				answer1: 'Making the Kessel Run in less that 12 parsecs.',
+				answer1img:
+					'https://3.bp.blogspot.com/-GGzHYLa_1NQ/W7KYBpgFhoI/AAAAAAAAPwM/QWhwdC9uEuoj8JKHYT52j1VW4SlGPSP4wCEwYBhgL/s1600/1046809-kr7300comp1267161074-lr.jpg',
+				answer1result: 0,
+
+				answer2: 'Bigger on the inside.',
+				answer2img: 'https://i.redd.it/sxw5fqztkdu11.jpg',
+				answer2result: 1,
+
+				answer3: 'Holodeck.',
+				answer3img:
+					'https://upload.wikimedia.org/wikipedia/en/d/d3/Holodeck2.jpg',
+				answer3result: 2,
+
+				answer4: 'Best homage ever.',
+				answer4img:
+					'https://cdn.konbini.com/wp-content/blogs.dir/4/files/2019/05/rick-morty-feat.jpg',
+				answer4result: 3
 			}
 		],
 		results: [
 			{
+				result: 'Millennium Falcon',
+				resultImage:
+					'https://media.gq.com/photos/5a341f18b491742d4078b7bc/16:9/w_1839,h_1034,c_limit/star-wars-millenium-falcon-is-just-fine.jpg',
+				resultCaption: "You are the Millennium Falcon. Don't get cocky, kid."
+			},
+			{
+				result: 'TARDIS',
+				resultImage: 'https://ichef.bbci.co.uk/images/ic/336xn/p04znpm3.jpg',
+				resultCaption: 'You are the TARDIS. Allons-y!'
+			},
+			{
+				result: 'USS Enterprise 1701 - D',
+				resultImage:
+					'https://static.turbosquid.com/Preview/2016/10/05__07_05_04/Star_Trek_Enterprise_NCC_1701_0001.jpgDFB123EF-B830-4DB6-9B7C-8F7FD89403F4Original.jpg',
+				resultCaption: 'You are the Enterprise. Engage.'
+			},
+			{
+				result: 'The DeLorean',
+				resultImage:
+					'https://i.pinimg.com/originals/91/9e/6b/919e6bee012e8b059c63f5e247435a2f.jpg',
+				resultCaption: 'You are the DeLorean. Great Scott!'
+			}
+		]
+	},
+	{
+		name: 'What kind of dream car are you?',
+		caption: 'Find out which kind of amazing dream car you are.',
+		image: 'http://giphygifs.s3.amazonaws.com/media/rEaI7dxJJyo36/giphy.gif',
+		createdBy: 'petr0lh34d',
+		questions: [
+			{
+				question: 'Are you concerned about the environment?',
+				answer1: 'Somewhat',
+				answer1img:
+					'https://cdn.vox-cdn.com/thumbor/JwgLphg-g61PedB6q_XGimczuf8=/0x0:4769x3179/1200x800/filters:focal(0x0:4769x3179)/cdn.vox-cdn.com/uploads/chorus_image/image/46573090/Silver_918_Spyder_07.0.0.jpg',
+				answer1result: 1,
+
+				answer2: 'Of course',
+				answer2img:
+					'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2019-toyota-prius-limited-129-1544565952.jpg?crop=1.00xw:0.825xh;0,0.150xh&resize=480:*',
+				answer2result: 3,
+
+				answer3: 'Hell no',
+				answer3img:
+					'http://40.media.tumblr.com/a01971d4113633b19cd7391ceea6c7a8/tumblr_nvqib1HLGd1spj6opo1_500.jpg',
+				answer3result: 0,
+
+				answer4: 'Not really',
+				answer4img:
+					'https://1.bp.blogspot.com/-CSJwMNdRp9o/XOrltGP3zlI/AAAAAAAAHJ8/ruCH7GHRBO4h-is_g6UiZwBYmsE0TEOHQCLcBGAs/s1600/8fd06de7-lamborghini-miura-azzurro-mexico-little-tony-polo-storico-1.jpg',
+				answer4result: 2
+			},
+			{
+				question: 'How would you describe the styling or your dream car?',
+				answer1: 'Efficient',
+				answer1img:
+					'https://img.autobytel.com/2017/audi/r8/2-800-oemexteriorfront1300-79990.jpg',
+				answer1result: 1,
+
+				answer2: 'Powerful',
+				answer2img:
+					'https://imgix.ranker.com/user_node_img/666/13300031/original/chevrolet-chevelle-ss-454-automobile-model-photo-u3?w=650&q=50&fm=pjpg&fit=crop&crop=faces',
+				answer2result: 0,
+
+				answer3: 'Trying to not be boring',
+				answer3img:
+					'https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjimgorzelany%2Ffiles%2F2016%2F08%2F2016_Prius_c_009_ABA124E7E1313BBF3C6DB8C3AD17B4F10076E13A-1200x801.jpg',
+				answer3result: 2,
+
+				answer4: 'Absolutely crazy',
+				answer4img:
+					'https://car-images.bauersecure.com/pagefiles/9717/1040x0/03egoista.jpg?scale=down',
+				answer4result: 2
+			},
+			{
+				question: 'How likely is it that you will get your dream car?',
+				answer1: 'Pretty good chance',
+				answer1img: 'https://i.ytimg.com/vi/acHlEYYEZXw/maxresdefault.jpg',
+				answer1result: 0,
+
+				answer2: 'There is a possibility',
+				answer2img:
+					'https://www.leithcars.com/assets/shared/CustomHTMLFiles/Responsive/MRP/Porsche/2019/911-Carrera/images/2019-Porsche-911-Carrera-01.jpg',
+				answer2result: 1,
+
+				answer3: 'Pretty unlikely',
+				answer3img:
+					'https://rmsothebys-cache.azureedge.net/e/a/9/0/5/4/ea9054212351a5e921fb11ea01ce8ed8f31cc846.jpg',
+				answer3result: 2,
+
+				answer4: 'Nope',
+				answer4img:
+					'https://www.foodbyfoot.com/wp-content/uploads/2017/01/McLaren-P1-image.jpg',
+				answer4result: 3
+>>>>>>> a1fba8670b4d602965629402e854cadba90c306b
+			}
+		],
+		results: [
+			{
+<<<<<<< HEAD
 				result: 'Plain',
 				resultImage:
 					'https://www.saintclarefestival.net/wp-content/uploads/2018/05/Google-Reuse-Unknown-Cheese-Pizza-Slice.jpg',
@@ -934,6 +1099,32 @@ module.exports = [
 	// 		}
 	// 	]
 	// },
+=======
+				result: 'American Muscle',
+				resultImage:
+					'http://cdn.lowgif.com/full/2213ecdbb615f9aa-restauraci-n-ford-mustang-1969-fastback-taringa.gif',
+				resultCaption: 'You got American Muscle'
+			},
+			{
+				result: 'German Sportscar',
+				resultImage: 'https://media1.giphy.com/media/i4zNerjkB2240/giphy.gif',
+				resultCaption: 'You got German Sportscar'
+			},
+			{
+				result: 'Italian Supercar',
+				resultImage:
+					'https://i.pinimg.com/originals/a5/ba/ce/a5bacec9b2b81adde75228976000cdbe.gif',
+				resultCaption: 'You got Italian Supercar'
+			},
+			{
+				result: 'Hyper Hybrid',
+				resultImage:
+					'https://thumbs.gfycat.com/ShallowAjarCuscus-size_restricted.gif',
+				resultCaption: 'You got Hyper Hybrid'
+			}
+		]
+	}
+>>>>>>> a1fba8670b4d602965629402e854cadba90c306b
 	// {
 	// 	name: '',
 	// 	caption: '',

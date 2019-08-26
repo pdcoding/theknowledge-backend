@@ -5,7 +5,8 @@ const session = require('express-session');
 require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 3003;
-const MONGODB_URI = 'mongodb://localhost:27017/knowledge';
+const MONGODB_URI =
+	process.env.MONGODB_URI || 'mongodb://localhost:27017/knowledge';
 const MongoStore = require('connect-mongo')(session);
 
 const whitelist = ['http://localhost:3000', 'http://theknowledge.surge.sh'];

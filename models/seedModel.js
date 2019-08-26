@@ -741,200 +741,295 @@ module.exports = [
 			}
 		]
 	},
-	{
-		name: '',
-		caption: '',
-		image: '',
-		createdBy: '',
+	{//peter
+		name: 'What type of pizza are you?',
+		caption: 'Find out what type of pizza you are!',
+		image: 'https://i.imgflip.com/qt8f1.jpg',
+		createdBy: 'pita',
 		questions: [
 			{
-				question: '',
-				answer1: '',
+				question: 'Pick your favorite city.',
+				answer1: 'New York',
 				answer1img:
-					'',
-				answer1result: ,
+					'https://wp.zillowstatic.com/streeteasy/2/shutterstock_695847865-bcd2e5.jpg',
+				answer1result: 0,
 
-				answer2: '',
+				answer2: 'Honolulu',
 				answer2img:
-					'',
-				answer2result: ,
+					'https://www.hawaiimagazine.com/sites/default/files/field/image/GettyImages-937463818.jpg',
+				answer2result: 1,
 
-				answer3: '',
+				answer3: 'San Fransisco',
 				answer3img:
-					'',
-				answer3result: ,
+					'https://upload.wikimedia.org/wikipedia/commons/1/1e/San_Francisco_from_the_Marin_Headlands_in_March_2019.jpg',
+				answer3result: 2,
 
-				answer4: '',
+				answer4: 'Chicago',
 				answer4img:
-					'',
-				answer4result:
+					'https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/chicago/Choose_Chicago_8086f9ab-7fa4-4515-aaca-244b7ca7e0f6.jpg',
+				answer4result: 3
 			},
 			{
-				question: '',
-				answer1: '',
+				question: 'How do you greet people',
+				answer1: 'Aloha',
 				answer1img:
-					'',
-				answer1result: ,
+					'https://ak2.picdn.net/shutterstock/videos/1014950902/thumb/1.jpghttps://www.hawaiidiscount.com/Portals/0/hawaii-loa-luau-sm.jpg',
+				answer1result: 1,
 
-				answer2: '',
-				answer2img:
-					'',
-				answer2result: ,
+				answer2: 'Hello',
+				answer2img: 'https://media.makeameme.org/created/hello-it-me-5aa2a9.jpg',
+				answer2result: 0,
 
-				answer3: '',
-				answer3img:
-					'',
-				answer3result: ,
-
-				answer4: '',
+				answer4: 'Wazzup',
 				answer4img:
-					'',
-				answer4result:
+					'https://slm-assets1.secondlife.com/assets/16904568/view_large/Wazzup_2.jpg?1492339771',
+				answer4result: 3,
+
+				answer3: 'Greetings',
+				answer3img: 'https://the-next-big-think.com/wp-content/uploads/2012/01/GreetingsEarthlingsOrange.gif',
+				answer3result: 2
 			},
 			{
-				question: '',
-				answer1: '',
+				question: 'Pick your favorite outfit',
+				answer1: 'Chill',
 				answer1img:
-					'',
-				answer1result: ,
+					'https://46fjj12eeht73lsxezcqpvlt-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/hawaiianshirts_elvisbluehawaii.jpg',
+				answer1result: 1,
 
-				answer2: '',
-				answer2img:
-					'',
-				answer2result: ,
+				answer2: 'Athletic',
+				answer2img: 'https://fivethirtyeight.com/wp-content/uploads/2017/07/judge1.jpg?w=575',
+				answer2result: 3,
 
-				answer3: '',
+				answer3: 'Everyday',
 				answer3img:
-					'',
-				answer3result: ,
+					'https://previews.123rf.com/images/kiuikson/kiuikson1512/kiuikson151200096/49641435-handsome-smiling-man-wearing-jeans-and-white-t-shirt-pure-natural-photo-of-natural-man-with-perfect-.jpg',
+				answer3result: 0,
 
-				answer4: '',
+				answer4: 'Hippy',
 				answer4img:
-					'',
-				answer4result:
-			},
+					'https://images-na.ssl-images-amazon.com/images/I/911m9JeBTTL._UL1500_.jpg',
+				answer4result: 2
+			}
 		],
 		results: [
 			{
-				result: '',
+				result: 'Plain',
 				resultImage:
-					'',
-				resultCaption: ''
+					'https://www.saintclarefestival.net/wp-content/uploads/2018/05/Google-Reuse-Unknown-Cheese-Pizza-Slice.jpg',
+				resultCaption: 'Congrats! You are regular!'
 			},
 			{
-				result: '',
-				resultImage: '',
-				resultCaption: ''
+				result: 'Hawaiian',//maybe put in instructor pic
+				resultImage: 'https://www.pngkey.com/png/detail/186-1862708_pizza-slice-png-download-hawaiian-pizza-slice-png.png',
+				resultCaption: "Aloha! You're a ham!" 
 			},
 			{
-				result: '',
-				resultImage: '',
-				resultCaption: ''
+				result: 'Veggie',
+				resultImage: 'https://slice.seriouseats.com/images/2012/08/2012082-02193090-DS-Grey%20Block-Salad%20Body.jpg',
+				resultCaption: "Nice! You're lean and green!"
 			},
 			{
-				result: '',
+				result: 'Meatlovers',
 				resultImage:
-					'',
-				resultCaption: ''
+					'http://broadwaypizza.com.au/wp-content/uploads/2015/10/Pizza-7.jpg',
+				resultCaption: "Yum! You're a lover not a fighter!"
 			}
 		]
 	},
-	{
-		name: '',
-		caption: '',
-		image: '',
-		createdBy: '',
-		questions: [
-			{
-				question: '',
-				answer1: '',
-				answer1img:
-					'',
-				answer1result: ,
+	// {
+	// 	name: '',
+	// 	caption: '',
+	// 	image: '',
+	// 	createdBy: '',
+	// 	questions: [
+	// 		{
+	// 			question: '',
+	// 			answer1: '',
+	// 			answer1img:
+	// 				'',
+	// 			answer1result: ,
 
-				answer2: '',
-				answer2img:
-					'',
-				answer2result: ,
+	// 			answer2: '',
+	// 			answer2img:
+	// 				'',
+	// 			answer2result: ,
 
-				answer3: '',
-				answer3img:
-					'',
-				answer3result: ,
+	// 			answer3: '',
+	// 			answer3img:
+	// 				'',
+	// 			answer3result: ,
 
-				answer4: '',
-				answer4img:
-					'',
-				answer4result:
-			},
-			{
-				question: '',
-				answer1: '',
-				answer1img:
-					'',
-				answer1result: ,
+	// 			answer4: '',
+	// 			answer4img:
+	// 				'',
+	// 			answer4result:
+	// 		},
+	// 		{
+	// 			question: '',
+	// 			answer1: '',
+	// 			answer1img:
+	// 				'',
+	// 			answer1result: ,
 
-				answer2: '',
-				answer2img:
-					'',
-				answer2result: ,
+	// 			answer2: '',
+	// 			answer2img:
+	// 				'',
+	// 			answer2result: ,
 
-				answer3: '',
-				answer3img:
-					'',
-				answer3result: ,
+	// 			answer3: '',
+	// 			answer3img:
+	// 				'',
+	// 			answer3result: ,
 
-				answer4: '',
-				answer4img:
-					'',
-				answer4result:
-			},
-			{
-				question: '',
-				answer1: '',
-				answer1img:
-					'',
-				answer1result: ,
+	// 			answer4: '',
+	// 			answer4img:
+	// 				'',
+	// 			answer4result:
+	// 		},
+	// 		{
+	// 			question: '',
+	// 			answer1: '',
+	// 			answer1img:
+	// 				'',
+	// 			answer1result: ,
 
-				answer2: '',
-				answer2img:
-					'',
-				answer2result: ,
+	// 			answer2: '',
+	// 			answer2img:
+	// 				'',
+	// 			answer2result: ,
 
-				answer3: '',
-				answer3img:
-					'',
-				answer3result: ,
+	// 			answer3: '',
+	// 			answer3img:
+	// 				'',
+	// 			answer3result: ,
 
-				answer4: '',
-				answer4img:
-					'',
-				answer4result:
-			},
-		],
-		results: [
-			{
-				result: '',
-				resultImage:
-					'',
-				resultCaption: ''
-			},
-			{
-				result: '',
-				resultImage: '',
-				resultCaption: ''
-			},
-			{
-				result: '',
-				resultImage: '',
-				resultCaption: ''
-			},
-			{
-				result: '',
-				resultImage:
-					'',
-				resultCaption: ''
-			}
-		]
-	}
+	// 			answer4: '',
+	// 			answer4img:
+	// 				'',
+	// 			answer4result:
+	// 		},
+	// 	],
+	// 	results: [
+	// 		{
+	// 			result: '',
+	// 			resultImage:
+	// 				'',
+	// 			resultCaption: ''
+	// 		},
+	// 		{
+	// 			result: '',
+	// 			resultImage: '',
+	// 			resultCaption: ''
+	// 		},
+	// 		{
+	// 			result: '',
+	// 			resultImage: '',
+	// 			resultCaption: ''
+	// 		},
+	// 		{
+	// 			result: '',
+	// 			resultImage:
+	// 				'',
+	// 			resultCaption: ''
+	// 		}
+	// 	]
+	// },
+	// {
+	// 	name: '',
+	// 	caption: '',
+	// 	image: '',
+	// 	createdBy: '',
+	// 	questions: [
+	// 		{
+	// 			question: '',
+	// 			answer1: '',
+	// 			answer1img:
+	// 				'',
+	// 			answer1result: ,
+
+	// 			answer2: '',
+	// 			answer2img:
+	// 				'',
+	// 			answer2result: ,
+
+	// 			answer3: '',
+	// 			answer3img:
+	// 				'',
+	// 			answer3result: ,
+
+	// 			answer4: '',
+	// 			answer4img:
+	// 				'',
+	// 			answer4result:
+	// 		},
+	// 		{
+	// 			question: '',
+	// 			answer1: '',
+	// 			answer1img:
+	// 				'',
+	// 			answer1result: ,
+
+	// 			answer2: '',
+	// 			answer2img:
+	// 				'',
+	// 			answer2result: ,
+
+	// 			answer3: '',
+	// 			answer3img:
+	// 				'',
+	// 			answer3result: ,
+
+	// 			answer4: '',
+	// 			answer4img:
+	// 				'',
+	// 			answer4result:
+	// 		},
+	// 		{
+	// 			question: '',
+	// 			answer1: '',
+	// 			answer1img:
+	// 				'',
+	// 			answer1result: ,
+
+	// 			answer2: '',
+	// 			answer2img:
+	// 				'',
+	// 			answer2result: ,
+
+	// 			answer3: '',
+	// 			answer3img:
+	// 				'',
+	// 			answer3result: ,
+
+	// 			answer4: '',
+	// 			answer4img:
+	// 				'',
+	// 			answer4result:
+	// 		},
+	// 	],
+	// 	results: [
+	// 		{
+	// 			result: '',
+	// 			resultImage:
+	// 				'',
+	// 			resultCaption: ''
+	// 		},
+	// 		{
+	// 			result: '',
+	// 			resultImage: '',
+	// 			resultCaption: ''
+	// 		},
+	// 		{
+	// 			result: '',
+	// 			resultImage: '',
+	// 			resultCaption: ''
+	// 		},
+	// 		{
+	// 			result: '',
+	// 			resultImage:
+	// 				'',
+	// 			resultCaption: ''
+	// 		}
+	// 	]
+	// }
 ];

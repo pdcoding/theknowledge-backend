@@ -667,8 +667,7 @@ module.exports = [
 				answer1result: 2,
 
 				answer2: 'Acting',
-				answer2img:
-					'http://www.actingbiz.com/assets/images/articles/049.jpg',
+				answer2img: 'http://www.actingbiz.com/assets/images/articles/049.jpg',
 				answer2result: 3,
 
 				answer3: 'Paleontology',
@@ -702,13 +701,12 @@ module.exports = [
 				answer4img:
 					'https://cdn2.rsc.org.uk/sitefinity/images/buildings-and-objects/audiences/audience_photos_july_2015-_2015_photo_by_david_tett_c_rsc_167796.tmb-img-912.jpg?sfvrsn=8cdf5d21_1',
 				answer4result: 5
-			},
+			}
 		],
 		results: [
 			{
 				result: 'Ross Geller',
-				resultImage:
-					'https://media3.giphy.com/media/AOo5AVBboFRvi/source.gif',
+				resultImage: 'https://media3.giphy.com/media/AOo5AVBboFRvi/source.gif',
 				resultCaption: 'You are The Ross!'
 			},
 			{
@@ -723,218 +721,215 @@ module.exports = [
 			},
 			{
 				result: 'Joey Tribbiani',
-				resultImage:
-					'https://media2.giphy.com/media/11ykUODgXjAXZu/source.gif',
+				resultImage: 'https://media2.giphy.com/media/11ykUODgXjAXZu/source.gif',
 				resultCaption: 'You are Joey. Better go find your turkey eating pants.'
 			},
 			{
 				result: 'Rachel Green',
-				resultImage:
-					'https://media.giphy.com/media/lKL2F4BrnYsJW/giphy.gif',
+				resultImage: 'https://media.giphy.com/media/lKL2F4BrnYsJW/giphy.gif',
 				resultCaption: 'You are Rachel. Were you on a break?'
 			},
 			{
 				result: 'Phoebe Buffay',
-				resultImage:
-					'https://i.gifer.com/3sQO.gif',
+				resultImage: 'https://i.gifer.com/3sQO.gif',
 				resultCaption: 'You are Phoebe. FEE - BEE!'
 			}
 		]
-	},
-	{
-		name: '',
-		caption: '',
-		image: '',
-		createdBy: '',
-		questions: [
-			{
-				question: '',
-				answer1: '',
-				answer1img:
-					'',
-				answer1result: ,
-
-				answer2: '',
-				answer2img:
-					'',
-				answer2result: ,
-
-				answer3: '',
-				answer3img:
-					'',
-				answer3result: ,
-
-				answer4: '',
-				answer4img:
-					'',
-				answer4result:
-			},
-			{
-				question: '',
-				answer1: '',
-				answer1img:
-					'',
-				answer1result: ,
-
-				answer2: '',
-				answer2img:
-					'',
-				answer2result: ,
-
-				answer3: '',
-				answer3img:
-					'',
-				answer3result: ,
-
-				answer4: '',
-				answer4img:
-					'',
-				answer4result:
-			},
-			{
-				question: '',
-				answer1: '',
-				answer1img:
-					'',
-				answer1result: ,
-
-				answer2: '',
-				answer2img:
-					'',
-				answer2result: ,
-
-				answer3: '',
-				answer3img:
-					'',
-				answer3result: ,
-
-				answer4: '',
-				answer4img:
-					'',
-				answer4result:
-			},
-		],
-		results: [
-			{
-				result: '',
-				resultImage:
-					'',
-				resultCaption: ''
-			},
-			{
-				result: '',
-				resultImage: '',
-				resultCaption: ''
-			},
-			{
-				result: '',
-				resultImage: '',
-				resultCaption: ''
-			},
-			{
-				result: '',
-				resultImage:
-					'',
-				resultCaption: ''
-			}
-		]
-	},
-	{
-		name: '',
-		caption: '',
-		image: '',
-		createdBy: '',
-		questions: [
-			{
-				question: '',
-				answer1: '',
-				answer1img:
-					'',
-				answer1result: ,
-
-				answer2: '',
-				answer2img:
-					'',
-				answer2result: ,
-
-				answer3: '',
-				answer3img:
-					'',
-				answer3result: ,
-
-				answer4: '',
-				answer4img:
-					'',
-				answer4result:
-			},
-			{
-				question: '',
-				answer1: '',
-				answer1img:
-					'',
-				answer1result: ,
-
-				answer2: '',
-				answer2img:
-					'',
-				answer2result: ,
-
-				answer3: '',
-				answer3img:
-					'',
-				answer3result: ,
-
-				answer4: '',
-				answer4img:
-					'',
-				answer4result:
-			},
-			{
-				question: '',
-				answer1: '',
-				answer1img:
-					'',
-				answer1result: ,
-
-				answer2: '',
-				answer2img:
-					'',
-				answer2result: ,
-
-				answer3: '',
-				answer3img:
-					'',
-				answer3result: ,
-
-				answer4: '',
-				answer4img:
-					'',
-				answer4result:
-			},
-		],
-		results: [
-			{
-				result: '',
-				resultImage:
-					'',
-				resultCaption: ''
-			},
-			{
-				result: '',
-				resultImage: '',
-				resultCaption: ''
-			},
-			{
-				result: '',
-				resultImage: '',
-				resultCaption: ''
-			},
-			{
-				result: '',
-				resultImage:
-					'',
-				resultCaption: ''
-			}
-		]
 	}
+	// 	{
+	// 		name: '',
+	// 		caption: '',
+	// 		image: '',
+	// 		createdBy: '',
+	// 		questions: [
+	// 			{
+	// 				question: '',
+	// 				answer1: '',
+	// 				answer1img:
+	// 					'',
+	// 				answer1result: ,
+
+	// 				answer2: '',
+	// 				answer2img:
+	// 					'',
+	// 				answer2result: ,
+
+	// 				answer3: '',
+	// 				answer3img:
+	// 					'',
+	// 				answer3result: ,
+
+	// 				answer4: '',
+	// 				answer4img:
+	// 					'',
+	// 				answer4result:
+	// 			},
+	// 			{
+	// 				question: '',
+	// 				answer1: '',
+	// 				answer1img:
+	// 					'',
+	// 				answer1result: ,
+
+	// 				answer2: '',
+	// 				answer2img:
+	// 					'',
+	// 				answer2result: ,
+
+	// 				answer3: '',
+	// 				answer3img:
+	// 					'',
+	// 				answer3result: ,
+
+	// 				answer4: '',
+	// 				answer4img:
+	// 					'',
+	// 				answer4result:
+	// 			},
+	// 			{
+	// 				question: '',
+	// 				answer1: '',
+	// 				answer1img:
+	// 					'',
+	// 				answer1result: ,
+
+	// 				answer2: '',
+	// 				answer2img:
+	// 					'',
+	// 				answer2result: ,
+
+	// 				answer3: '',
+	// 				answer3img:
+	// 					'',
+	// 				answer3result: ,
+
+	// 				answer4: '',
+	// 				answer4img:
+	// 					'',
+	// 				answer4result:
+	// 			},
+	// 		],
+	// 		results: [
+	// 			{
+	// 				result: '',
+	// 				resultImage:
+	// 					'',
+	// 				resultCaption: ''
+	// 			},
+	// 			{
+	// 				result: '',
+	// 				resultImage: '',
+	// 				resultCaption: ''
+	// 			},
+	// 			{
+	// 				result: '',
+	// 				resultImage: '',
+	// 				resultCaption: ''
+	// 			},
+	// 			{
+	// 				result: '',
+	// 				resultImage:
+	// 					'',
+	// 				resultCaption: ''
+	// 			}
+	// 		]
+	// 	},
+	// 	{
+	// 		name: '',
+	// 		caption: '',
+	// 		image: '',
+	// 		createdBy: '',
+	// 		questions: [
+	// 			{
+	// 				question: '',
+	// 				answer1: '',
+	// 				answer1img:
+	// 					'',
+	// 				answer1result: ,
+
+	// 				answer2: '',
+	// 				answer2img:
+	// 					'',
+	// 				answer2result: ,
+
+	// 				answer3: '',
+	// 				answer3img:
+	// 					'',
+	// 				answer3result: ,
+
+	// 				answer4: '',
+	// 				answer4img:
+	// 					'',
+	// 				answer4result:
+	// 			},
+	// 			{
+	// 				question: '',
+	// 				answer1: '',
+	// 				answer1img:
+	// 					'',
+	// 				answer1result: ,
+
+	// 				answer2: '',
+	// 				answer2img:
+	// 					'',
+	// 				answer2result: ,
+
+	// 				answer3: '',
+	// 				answer3img:
+	// 					'',
+	// 				answer3result: ,
+
+	// 				answer4: '',
+	// 				answer4img:
+	// 					'',
+	// 				answer4result:
+	// 			},
+	// 			{
+	// 				question: '',
+	// 				answer1: '',
+	// 				answer1img:
+	// 					'',
+	// 				answer1result: ,
+
+	// 				answer2: '',
+	// 				answer2img:
+	// 					'',
+	// 				answer2result: ,
+
+	// 				answer3: '',
+	// 				answer3img:
+	// 					'',
+	// 				answer3result: ,
+
+	// 				answer4: '',
+	// 				answer4img:
+	// 					'',
+	// 				answer4result:
+	// 			},
+	// 		],
+	// 		results: [
+	// 			{
+	// 				result: '',
+	// 				resultImage:
+	// 					'',
+	// 				resultCaption: ''
+	// 			},
+	// 			{
+	// 				result: '',
+	// 				resultImage: '',
+	// 				resultCaption: ''
+	// 			},
+	// 			{
+	// 				result: '',
+	// 				resultImage: '',
+	// 				resultCaption: ''
+	// 			},
+	// 			{
+	// 				result: '',
+	// 				resultImage:
+	// 					'',
+	// 				resultCaption: ''
+	// 			}
+	// 		]
+	// 	}
 ];

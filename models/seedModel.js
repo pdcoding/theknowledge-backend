@@ -1057,23 +1057,23 @@ module.exports = [
 		],
 		results: [
 			{
-				result: '0',
+				result: 'Programming Legend',
 				resultImage:
 					'https://codinginfinite.com/wp-content/uploads/2019/05/maxresdefault-1.jpg',
 				resultCaption: 'you are a programming legend!'
 			},
 			{
-				result: '1',
+				result: 'Basic',
 				resultImage: '',
 				resultCaption: 'you are a programmer that can do the basics'
 			},
 			{
-				result: '2',
+				result: 'Legit',
 				resultImage: 'https://library.kissclipart.com/20180922/sow/kissclipart-cartoon-clipart-programmer-computer-programming-ca-ef26de30812ddda7.jpg',
-				resultCaption: 'you are a real programmer'
+				resultCaption: 'you are a legit programmer'
 			},
 			{
-				result: '3',
+				result: '(in?)famous',
 				resultImage:
 					'https://image.cnbcfm.com/api/v1/image/104445875-1548885263261gettyimages-669913902r.jpg?v=1548935008&w=1400&h=950',
 				resultCaption: 'you are a famous programmer'

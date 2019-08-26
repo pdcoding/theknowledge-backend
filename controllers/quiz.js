@@ -106,19 +106,6 @@ quizzes.get('/:id', (req, res) => {
 	});
 });
 
-<<<<<<< HEAD
-// seed
-quizzes.get('/seed', (req, res) => {
-  Quiz.create(seedData, (err, createdQuizzes) => {
-    if (err) {
-      res.status(400).json({ error: err.message });
-    } else console.log('Successfully seeded data');
-    res.send('Data successfully seeded');
-  });
-});
-
-=======
->>>>>>> 1b70269353d745c4013662605a03311e13d58d22
 module.exports = quizzes;
 
 // Adapted from https://stackoverflow.com/questions/3393854/

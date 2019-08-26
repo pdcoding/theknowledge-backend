@@ -692,7 +692,7 @@ module.exports = [
 
 				answer3: 'To win an Oscar',
 				answer3img:
-					'https://cdn.vox-cdn.com/thumbor/-kR74rqEeyR-anJzLjrpuE62d8s=/0x0:640x427/1200x800/filters:focal(269x163:371x265)/cdn.vox-cdn.com/uploads/chorus_image/image/63090959/oscar_stock_640.0.0.jpg',
+					'http://www.enniomorricone.org/wp-content/uploads/2016/02/oscar.jpg',
 				answer3result: 3,
 
 				answer4: 'To be a musician',

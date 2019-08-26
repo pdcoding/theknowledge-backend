@@ -12,8 +12,6 @@ users.post('/', (req, res) => {
 				res.cookie('user', foundUser.email);
 				res.cookie('userid', String(foundUser._id));
 				res.send('logged in');
-				// console.log('LOGGED IN USER BELOW');
-				// console.log(foundUser);
 			}
 		} else {
 			res.status(200);
@@ -24,9 +22,7 @@ users.post('/', (req, res) => {
 
 // Delete
 users.delete('/', (req, res) => {
-	req.session.destroy(() => {
-		// res.redirect('/');
-	});
+	req.session.destroy(() => {});
 	res.clearCookie('user');
 	res.clearCookie('sessionid');
 	res.clearCookie('userid');

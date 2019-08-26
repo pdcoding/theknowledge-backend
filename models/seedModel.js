@@ -734,9 +734,9 @@ module.exports = [
 			}
 		]
 	},
-	
 
-	{//peter
+	{
+		//peter
 		name: 'What type of pizza are you?',
 		caption: 'Find out what type of pizza you are!',
 		image: 'https://i.imgflip.com/qt8f1.jpg',
@@ -772,7 +772,8 @@ module.exports = [
 				answer1result: 1,
 
 				answer2: 'Hello',
-				answer2img: 'https://media.makeameme.org/created/hello-it-me-5aa2a9.jpg',
+				answer2img:
+					'https://media.makeameme.org/created/hello-it-me-5aa2a9.jpg',
 				answer2result: 0,
 
 				answer4: 'Wazzup',
@@ -781,7 +782,8 @@ module.exports = [
 				answer4result: 3,
 
 				answer3: 'Greetings',
-				answer3img: 'https://the-next-big-think.com/wp-content/uploads/2012/01/GreetingsEarthlingsOrange.gif',
+				answer3img:
+					'https://the-next-big-think.com/wp-content/uploads/2012/01/GreetingsEarthlingsOrange.gif',
 				answer3result: 2
 			},
 			{
@@ -792,7 +794,8 @@ module.exports = [
 				answer1result: 1,
 
 				answer2: 'Athletic',
-				answer2img: 'https://fivethirtyeight.com/wp-content/uploads/2017/07/judge1.jpg?w=575',
+				answer2img:
+					'https://fivethirtyeight.com/wp-content/uploads/2017/07/judge1.jpg?w=575',
 				answer2result: 3,
 
 				answer3: 'Everyday',
@@ -804,33 +807,36 @@ module.exports = [
 				answer4img:
 					'https://images-na.ssl-images-amazon.com/images/I/911m9JeBTTL._UL1500_.jpg',
 				answer4result: 2
-			}],
-			results: [
-				{
-					result: 'Plain',
-					resultImage:
-						'https://www.saintclarefestival.net/wp-content/uploads/2018/05/Google-Reuse-Unknown-Cheese-Pizza-Slice.jpg',
-					resultCaption: 'Congrats! You are regular!'
-				},
-				{
-					result: 'Hawaiian',//maybe put in instructor pic
-					resultImage: 'https://www.pngkey.com/png/detail/186-1862708_pizza-slice-png-download-hawaiian-pizza-slice-png.png',
-					resultCaption: "Aloha! You're a ham!" 
-				},
-				{
-					result: 'Veggie',
-					resultImage: 'https://slice.seriouseats.com/images/2012/08/2012082-02193090-DS-Grey%20Block-Salad%20Body.jpg',
-					resultCaption: "Nice! You're lean and green!"
-				},
-				{
-					result: 'Meatlovers',
-					resultImage:
-						'http://broadwaypizza.com.au/wp-content/uploads/2015/10/Pizza-7.jpg',
-					resultCaption: "Yum! You're a lover not a fighter!"
-				}
-			],
-		},
-		{
+			}
+		],
+		results: [
+			{
+				result: 'Plain',
+				resultImage:
+					'https://www.saintclarefestival.net/wp-content/uploads/2018/05/Google-Reuse-Unknown-Cheese-Pizza-Slice.jpg',
+				resultCaption: 'Congrats! You are regular!'
+			},
+			{
+				result: 'Hawaiian', //maybe put in instructor pic
+				resultImage:
+					'https://www.pngkey.com/png/detail/186-1862708_pizza-slice-png-download-hawaiian-pizza-slice-png.png',
+				resultCaption: "Aloha! You're a ham!"
+			},
+			{
+				result: 'Veggie',
+				resultImage:
+					'https://slice.seriouseats.com/images/2012/08/2012082-02193090-DS-Grey%20Block-Salad%20Body.jpg',
+				resultCaption: "Nice! You're lean and green!"
+			},
+			{
+				result: 'Meatlovers',
+				resultImage:
+					'http://broadwaypizza.com.au/wp-content/uploads/2015/10/Pizza-7.jpg',
+				resultCaption: "Yum! You're a lover not a fighter!"
+			}
+		]
+	},
+	{
 		name: 'What Sci-Fi Vehicle Are You?',
 		caption: 'Find our which science fiction mode of transport you are.',
 		image: 'https://i.gifer.com/W9xz.gif',
@@ -996,34 +1002,34 @@ module.exports = [
 				answer4img:
 					'https://www.foodbyfoot.com/wp-content/uploads/2017/01/McLaren-P1-image.jpg',
 				answer4result: 3
-			},
-		], results: [
+			}
+		],
+		results: [
 			{
-			result: 'American Muscle',
-			resultImage:
-				'http://cdn.lowgif.com/full/2213ecdbb615f9aa-restauraci-n-ford-mustang-1969-fastback-taringa.gif',
-			resultCaption: 'You got American Muscle'
-		},
-		{
-			result: 'German Sportscar',
-			resultImage: 'https://media1.giphy.com/media/i4zNerjkB2240/giphy.gif',
-			resultCaption: 'You got German Sportscar'
-		},
-		{
-			result: 'Italian Supercar',
-			resultImage:
-				'https://i.pinimg.com/originals/a5/ba/ce/a5bacec9b2b81adde75228976000cdbe.gif',
-			resultCaption: 'You got Italian Supercar'
-		},
-		{
-			result: 'Hyper Hybrid',
-			resultImage:
-				'https://thumbs.gfycat.com/ShallowAjarCuscus-size_restricted.gif',
-			resultCaption: 'You got Hyper Hybrid'
-		}
-	],
-},
-// ]
+				result: 'American Muscle',
+				resultImage:
+					'http://cdn.lowgif.com/full/2213ecdbb615f9aa-restauraci-n-ford-mustang-1969-fastback-taringa.gif',
+				resultCaption: 'You got American Muscle'
+			},
+			{
+				result: 'German Sportscar',
+				resultImage: 'https://media1.giphy.com/media/i4zNerjkB2240/giphy.gif',
+				resultCaption: 'You got German Sportscar'
+			},
+			{
+				result: 'Italian Supercar',
+				resultImage:
+					'https://i.pinimg.com/originals/a5/ba/ce/a5bacec9b2b81adde75228976000cdbe.gif',
+				resultCaption: 'You got Italian Supercar'
+			},
+			{
+				result: 'Hyper Hybrid',
+				resultImage:
+					'https://thumbs.gfycat.com/ShallowAjarCuscus-size_restricted.gif',
+				resultCaption: 'You got Hyper Hybrid'
+			}
+		]
+	},
 	{
 		name: 'Are you a programmer?',
 		caption: 'Take a quiz to see what kind of programmer you are',
@@ -1031,10 +1037,10 @@ module.exports = [
 		createdBy: 'pita',
 		questions: [
 			{
-				question: 'Which image best describes your understanding of programming?',
+				question:
+					'Which image best describes your understanding of programming?',
 				answer1: '',
-				answer1img:
-					'https://pbs.twimg.com/media/DyU6X0TXcAAOsTF.jpg',
+				answer1img: 'https://pbs.twimg.com/media/DyU6X0TXcAAOsTF.jpg',
 				answer1result: 2,
 
 				answer2: '',
@@ -1043,14 +1049,12 @@ module.exports = [
 				answer2result: 1,
 
 				answer3: '',
-				answer3img:
-					'https://i.imgur.com/xEcD0Ih.png',
+				answer3img: 'https://i.imgur.com/xEcD0Ih.png',
 				answer3result: 0,
 
 				answer4: '',
-				answer4img:
-					'https://www.probytes.net/wp-content/uploads/2018/01/2.jpg',
-				answer4result: 3,
+				answer4img: 'https://www.probytes.net/wp-content/uploads/2018/01/2.jpg',
+				answer4result: 3
 			}
 		],
 		results: [
@@ -1067,7 +1071,8 @@ module.exports = [
 			},
 			{
 				result: 'Legit',
-				resultImage: 'https://library.kissclipart.com/20180922/sow/kissclipart-cartoon-clipart-programmer-computer-programming-ca-ef26de30812ddda7.jpg',
+				resultImage:
+					'https://library.kissclipart.com/20180922/sow/kissclipart-cartoon-clipart-programmer-computer-programming-ca-ef26de30812ddda7.jpg',
 				resultCaption: 'you are a legit programmer'
 			},
 			{
@@ -1078,104 +1083,102 @@ module.exports = [
 			}
 		]
 	},
+
+	{
+		name: 'Which character from The Office are you?',
+		caption: 'Find out who in The Office you are!',
+		image: 'http://giphygifs.s3.amazonaws.com/media/dYTcNf0QZucNi/giphy.gif',
+		createdBy: 'scrantonstrangler04',
+		questions: [
+			{
+				question: 'What is your favorite animal?',
+				answer1: 'Bears',
+				answer1img:
+					'https://wildsafebc.com/wp-content/uploads/2017/07/blackbear-e1501281687765.jpg',
+				answer1result: 0,
+
+				answer2: 'Red lipped batfish',
+				answer2img:
+					'https://static.boredpanda.com/blog/wp-content/uuuploads/strange-animals-you-didnt-know-2/strange-animals-you-didnt-know-2-2.jpg',
+				answer2result: 2,
+
+				answer3: 'Puppies',
+				answer3img:
+					'https://peopledotcom.files.wordpress.com/2019/01/GettyImages-85597067.jpg',
+				answer3result: 3,
+
+				answer4: 'People',
+				answer4img: 'http://ichef.bbci.co.uk/images/ic/640x360/p033tw9j.jpg',
+				answer4result: 1
+			},
+			{
+				question: 'What is your favorite food?',
+				answer1: 'Mung beans',
+				answer1img:
+					'https://www.indianhealthyrecipes.com/wp-content/uploads/2018/09/mung-bean-sprouts-500x500.jpg',
+				answer1result: 2,
+
+				answer2: 'M&Ms',
+				answer2img:
+					'https://upload.wikimedia.org/wikipedia/commons/e/e5/Plain-M%26Ms-Pile.jpg',
+				answer2result: 3,
+
+				answer3: 'Beets',
+				answer3img:
+					'https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/AN172-Beets-1296x728-Header.jpg?w=1155',
+				answer3result: 0,
+
+				answer4: 'Chicken breast, hold the chicken',
+				answer4img:
+					'https://www.apinchofhealthy.com/wp-content/uploads/2019/01/Baked-Chicken-Breast-cooked-closeup.jpg',
+				answer4result: 1
+			},
+			{
+				question: 'What is your favortie TV show?',
+				answer1: 'Baywatch',
+				answer1img:
+					'https://images-na.ssl-images-amazon.com/images/I/91r6RiRvMCL._RI_.jpg',
+				answer1result: 3,
+
+				answer2: 'My favorite what?',
+				answer2img:
+					'https://st3.depositphotos.com/1184748/18367/v/600/depositphotos_183677028-stock-video-black-white-vhs-glitch-noise.jpg',
+				answer2result: 2,
+
+				answer3: 'Survivor',
+				answer3img:
+					'https://morewhatnot.files.wordpress.com/2015/11/multilogoimage1.jpg?w=584',
+				answer3result: 1,
+
+				answer4: 'Battlestar Galactica',
+				answer4img:
+					'https://miro.medium.com/max/2560/1*x3osWny_7Ouh5nmbq5HpuQ.jpeg',
+				answer4result: 0
+			}
+		],
+		results: [
+			{
+				result: 'Dwight K. Schrute',
+				resultImage: 'https://media0.giphy.com/media/3t7RAFhu75Wwg/giphy.gif',
+				resultCaption:
+					'Congrats! You are the Assistant to the Regional Manager!'
+			},
+			{
+				result: 'Michael Scott',
+				resultImage: 'https://media2.giphy.com/media/8wkXMxbONnEFq/giphy.gif',
+				resultCaption: "That's what she said."
+			},
+			{
+				result: 'Creed',
+				resultImage:
+					'https://media1.tenor.com/images/8d1b668ba8ae379e7d06f105cf8ebf01/tenor.gif?itemid=8100976',
+				resultCaption: 'You are...pretty weird.'
+			},
+			{
+				result: 'Kevin',
+				resultImage: 'https://media1.giphy.com/media/4n6XcirHTBzs4/giphy.gif',
+				resultCaption: 'Congrat! Why say lot word when few word do trick?'
+			}
+		]
+	}
 ];
-			
-// 	// {
-// 	// 	name: '',
-// 	// 	caption: '',
-// 	// 	image: '',
-// 	// 	createdBy: '',
-// 	// 	questions: [
-// 	// 		{
-// 	// 			question: '',
-// 	// 			answer1: '',
-// 	// 			answer1img:
-// 	// 				'',
-// 	// 			answer1result: ,
-
-// 	// 			answer2: '',
-// 	// 			answer2img:
-// 	// 				'',
-// 	// 			answer2result: ,
-
-// 	// 			answer3: '',
-// 	// 			answer3img:
-// 	// 				'',
-// 	// 			answer3result: ,
-
-// 	// 			answer4: '',
-// 	// 			answer4img:
-// 	// 				'',
-// 	// 			answer4result:
-// 	// 		},
-// 	// 		{
-// 	// 			question: '',
-// 	// 			answer1: '',
-// 	// 			answer1img:
-// 	// 				'',
-// 	// 			answer1result: ,
-
-// 	// 			answer2: '',
-// 	// 			answer2img:
-// 	// 				'',
-// 	// 			answer2result: ,
-
-// 	// 			answer3: '',
-// 	// 			answer3img:
-// 	// 				'',
-// 	// 			answer3result: ,
-
-// 	// 			answer4: '',
-// 	// 			answer4img:
-// 	// 				'',
-// 	// 			answer4result:
-// 	// 		},
-// 	// 		{
-// 	// 			question: '',
-// 	// 			answer1: '',
-// 	// 			answer1img:
-// 	// 				'',
-// 	// 			answer1result: ,
-
-// 	// 			answer2: '',
-// 	// 			answer2img:
-// 	// 				'',
-// 	// 			answer2result: ,
-
-// 	// 			answer3: '',
-// 	// 			answer3img:
-// 	// 				'',
-// 	// 			answer3result: ,
-
-// 	// 			answer4: '',
-// 	// 			answer4img:
-// 	// 				'',
-// 	// 			answer4result:
-// 	// 		},
-// 	// 	],
-// 	// 	results: [
-// 	// 		{
-// 	// 			result: '',
-// 	// 			resultImage:
-// 	// 				'',
-// 	// 			resultCaption: ''
-// 	// 		},
-// 	// 		{
-// 	// 			result: '',
-// 	// 			resultImage: '',
-// 	// 			resultCaption: ''
-// 	// 		},
-// 	// 		{
-// 	// 			result: '',
-// 	// 			resultImage: '',
-// 	// 			resultCaption: ''
-// 	// 		},
-// 	// 		{
-// 	// 			result: '',
-// 	// 			resultImage:
-// 	// 				'',
-// 	// 			resultCaption: ''
-// 	// 		}
-// 	// 	]
-// 	// }
-// ];

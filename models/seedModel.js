@@ -739,8 +739,8 @@ module.exports = [
 	{
 		name: 'What Sci-Fi Vehicle Are You?',
 		caption: 'Find our which science fiction mode of transport you are.',
-		image: '',
-		createdBy: '',
+		image: 'https://i.gifer.com/W9xz.gif',
+		createdBy: 'sci-fan69',
 		questions: [
 			{
 				question: 'What powers you?',

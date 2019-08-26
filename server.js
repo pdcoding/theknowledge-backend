@@ -2,12 +2,14 @@ const cors = require('cors');
 const express = require('express');
 const mongoose = require('mongoose');
 const session = require('express-session');
+require('dotenv').config();
 const app = express();
-const PORT = 3003;
-const MONGODB_URI = 'mongodb://localhost:27017/knowledge';
+const PORT = process.env.PORT || 3003;
+const MONGODB_URI =
+	process.env.MONGODB_URI || 'mongodb://localhost:27017/knowledge';
 const MongoStore = require('connect-mongo')(session);
 
-const whitelist = ['http://localhost:3000'];
+const whitelist = ['http://localhost:3000', 'http://theknowledge.surge.sh'];
 const corsOptions = {
 	credentials: true,
 	origin: (origin, callback) => {
@@ -43,17 +45,13 @@ mongoose.connection.once('open', () => {
 //middleware
 app.use(
 	session({
-		secret: 'pineapple',
+		secret: process.env.SECRET,
 		resave: false,
 		saveUninitialized: false,
 		store: new MongoStore({ mongooseConnection: db }),
 		cookie: {}
 	})
 );
-
-app.get('/', (req, res) => {
-	res.json({ message: 'HELP' });
-});
 
 // Controllers
 const userController = require('./controllers/users.js');

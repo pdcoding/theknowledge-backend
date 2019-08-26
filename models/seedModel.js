@@ -736,7 +736,8 @@ module.exports = [
 			}
 		]
 	},
-<<<<<<< HEAD
+	
+
 	{//peter
 		name: 'What type of pizza are you?',
 		caption: 'Find out what type of pizza you are!',
@@ -805,8 +806,33 @@ module.exports = [
 				answer4img:
 					'https://images-na.ssl-images-amazon.com/images/I/911m9JeBTTL._UL1500_.jpg',
 				answer4result: 2
-=======
-	{
+			}],
+			results: [
+				{
+					result: 'Plain',
+					resultImage:
+						'https://www.saintclarefestival.net/wp-content/uploads/2018/05/Google-Reuse-Unknown-Cheese-Pizza-Slice.jpg',
+					resultCaption: 'Congrats! You are regular!'
+				},
+				{
+					result: 'Hawaiian',//maybe put in instructor pic
+					resultImage: 'https://www.pngkey.com/png/detail/186-1862708_pizza-slice-png-download-hawaiian-pizza-slice-png.png',
+					resultCaption: "Aloha! You're a ham!" 
+				},
+				{
+					result: 'Veggie',
+					resultImage: 'https://slice.seriouseats.com/images/2012/08/2012082-02193090-DS-Grey%20Block-Salad%20Body.jpg',
+					resultCaption: "Nice! You're lean and green!"
+				},
+				{
+					result: 'Meatlovers',
+					resultImage:
+						'http://broadwaypizza.com.au/wp-content/uploads/2015/10/Pizza-7.jpg',
+					resultCaption: "Yum! You're a lover not a fighter!"
+				}
+			],
+		},
+		{
 		name: 'What Sci-Fi Vehicle Are You?',
 		caption: 'Find our which science fiction mode of transport you are.',
 		image: 'https://i.gifer.com/W9xz.gif',
@@ -972,255 +998,186 @@ module.exports = [
 				answer4img:
 					'https://www.foodbyfoot.com/wp-content/uploads/2017/01/McLaren-P1-image.jpg',
 				answer4result: 3
->>>>>>> a1fba8670b4d602965629402e854cadba90c306b
+			},
+		], results: [
+			{
+			result: 'American Muscle',
+			resultImage:
+				'http://cdn.lowgif.com/full/2213ecdbb615f9aa-restauraci-n-ford-mustang-1969-fastback-taringa.gif',
+			resultCaption: 'You got American Muscle'
+		},
+		{
+			result: 'German Sportscar',
+			resultImage: 'https://media1.giphy.com/media/i4zNerjkB2240/giphy.gif',
+			resultCaption: 'You got German Sportscar'
+		},
+		{
+			result: 'Italian Supercar',
+			resultImage:
+				'https://i.pinimg.com/originals/a5/ba/ce/a5bacec9b2b81adde75228976000cdbe.gif',
+			resultCaption: 'You got Italian Supercar'
+		},
+		{
+			result: 'Hyper Hybrid',
+			resultImage:
+				'https://thumbs.gfycat.com/ShallowAjarCuscus-size_restricted.gif',
+			resultCaption: 'You got Hyper Hybrid'
+		}
+	],
+},
+// ]
+	{
+		name: 'Are you a programmer?',
+		caption: 'Take a quiz to see what kind of programmer you are',
+		image: 'https://media.giphy.com/media/vzO0Vc8b2VBLi/giphy.gif',
+		createdBy: 'pita',
+		questions: [
+			{
+				question: 'Which image best describes your understanding of programming?',
+				answer1: '',
+				answer1img:
+					'https://pbs.twimg.com/media/DyU6X0TXcAAOsTF.jpg',
+				answer1result: 2,
+
+				answer2: '',
+				answer2img:
+					'https://i.pinimg.com/736x/64/e8/48/64e84853aaa2a974fc88b1a4c614a7f2.jpg',
+				answer2result: 1,
+
+				answer3: '',
+				answer3img:
+					'https://i.imgur.com/xEcD0Ih.png',
+				answer3result: 0,
+
+				answer4: '',
+				answer4img:
+					'https://www.probytes.net/wp-content/uploads/2018/01/2.jpg',
+				answer4result: 3,
 			}
 		],
 		results: [
 			{
-<<<<<<< HEAD
-				result: 'Plain',
+				result: '0',
 				resultImage:
-					'https://www.saintclarefestival.net/wp-content/uploads/2018/05/Google-Reuse-Unknown-Cheese-Pizza-Slice.jpg',
-				resultCaption: 'Congrats! You are regular!'
+					'https://codinginfinite.com/wp-content/uploads/2019/05/maxresdefault-1.jpg',
+				resultCaption: 'you are a programming legend!'
 			},
 			{
-				result: 'Hawaiian',//maybe put in instructor pic
-				resultImage: 'https://www.pngkey.com/png/detail/186-1862708_pizza-slice-png-download-hawaiian-pizza-slice-png.png',
-				resultCaption: "Aloha! You're a ham!" 
+				result: '1',
+				resultImage: '',
+				resultCaption: 'you are a programmer that can do the basics'
 			},
 			{
-				result: 'Veggie',
-				resultImage: 'https://slice.seriouseats.com/images/2012/08/2012082-02193090-DS-Grey%20Block-Salad%20Body.jpg',
-				resultCaption: "Nice! You're lean and green!"
+				result: '2',
+				resultImage: 'https://library.kissclipart.com/20180922/sow/kissclipart-cartoon-clipart-programmer-computer-programming-ca-ef26de30812ddda7.jpg',
+				resultCaption: 'you are a real programmer'
 			},
 			{
-				result: 'Meatlovers',
+				result: '3',
 				resultImage:
-					'http://broadwaypizza.com.au/wp-content/uploads/2015/10/Pizza-7.jpg',
-				resultCaption: "Yum! You're a lover not a fighter!"
+					'https://image.cnbcfm.com/api/v1/image/104445875-1548885263261gettyimages-669913902r.jpg?v=1548935008&w=1400&h=950',
+				resultCaption: 'you are a famous programmer'
 			}
 		]
 	},
-	// {
-	// 	name: '',
-	// 	caption: '',
-	// 	image: '',
-	// 	createdBy: '',
-	// 	questions: [
-	// 		{
-	// 			question: '',
-	// 			answer1: '',
-	// 			answer1img:
-	// 				'',
-	// 			answer1result: ,
-
-	// 			answer2: '',
-	// 			answer2img:
-	// 				'',
-	// 			answer2result: ,
-
-	// 			answer3: '',
-	// 			answer3img:
-	// 				'',
-	// 			answer3result: ,
-
-	// 			answer4: '',
-	// 			answer4img:
-	// 				'',
-	// 			answer4result:
-	// 		},
-	// 		{
-	// 			question: '',
-	// 			answer1: '',
-	// 			answer1img:
-	// 				'',
-	// 			answer1result: ,
-
-	// 			answer2: '',
-	// 			answer2img:
-	// 				'',
-	// 			answer2result: ,
-
-	// 			answer3: '',
-	// 			answer3img:
-	// 				'',
-	// 			answer3result: ,
-
-	// 			answer4: '',
-	// 			answer4img:
-	// 				'',
-	// 			answer4result:
-	// 		},
-	// 		{
-	// 			question: '',
-	// 			answer1: '',
-	// 			answer1img:
-	// 				'',
-	// 			answer1result: ,
-
-	// 			answer2: '',
-	// 			answer2img:
-	// 				'',
-	// 			answer2result: ,
-
-	// 			answer3: '',
-	// 			answer3img:
-	// 				'',
-	// 			answer3result: ,
-
-	// 			answer4: '',
-	// 			answer4img:
-	// 				'',
-	// 			answer4result:
-	// 		},
-	// 	],
-	// 	results: [
-	// 		{
-	// 			result: '',
-	// 			resultImage:
-	// 				'',
-	// 			resultCaption: ''
-	// 		},
-	// 		{
-	// 			result: '',
-	// 			resultImage: '',
-	// 			resultCaption: ''
-	// 		},
-	// 		{
-	// 			result: '',
-	// 			resultImage: '',
-	// 			resultCaption: ''
-	// 		},
-	// 		{
-	// 			result: '',
-	// 			resultImage:
-	// 				'',
-	// 			resultCaption: ''
-	// 		}
-	// 	]
-	// },
-=======
-				result: 'American Muscle',
-				resultImage:
-					'http://cdn.lowgif.com/full/2213ecdbb615f9aa-restauraci-n-ford-mustang-1969-fastback-taringa.gif',
-				resultCaption: 'You got American Muscle'
-			},
-			{
-				result: 'German Sportscar',
-				resultImage: 'https://media1.giphy.com/media/i4zNerjkB2240/giphy.gif',
-				resultCaption: 'You got German Sportscar'
-			},
-			{
-				result: 'Italian Supercar',
-				resultImage:
-					'https://i.pinimg.com/originals/a5/ba/ce/a5bacec9b2b81adde75228976000cdbe.gif',
-				resultCaption: 'You got Italian Supercar'
-			},
-			{
-				result: 'Hyper Hybrid',
-				resultImage:
-					'https://thumbs.gfycat.com/ShallowAjarCuscus-size_restricted.gif',
-				resultCaption: 'You got Hyper Hybrid'
-			}
-		]
-	}
->>>>>>> a1fba8670b4d602965629402e854cadba90c306b
-	// {
-	// 	name: '',
-	// 	caption: '',
-	// 	image: '',
-	// 	createdBy: '',
-	// 	questions: [
-	// 		{
-	// 			question: '',
-	// 			answer1: '',
-	// 			answer1img:
-	// 				'',
-	// 			answer1result: ,
-
-	// 			answer2: '',
-	// 			answer2img:
-	// 				'',
-	// 			answer2result: ,
-
-	// 			answer3: '',
-	// 			answer3img:
-	// 				'',
-	// 			answer3result: ,
-
-	// 			answer4: '',
-	// 			answer4img:
-	// 				'',
-	// 			answer4result:
-	// 		},
-	// 		{
-	// 			question: '',
-	// 			answer1: '',
-	// 			answer1img:
-	// 				'',
-	// 			answer1result: ,
-
-	// 			answer2: '',
-	// 			answer2img:
-	// 				'',
-	// 			answer2result: ,
-
-	// 			answer3: '',
-	// 			answer3img:
-	// 				'',
-	// 			answer3result: ,
-
-	// 			answer4: '',
-	// 			answer4img:
-	// 				'',
-	// 			answer4result:
-	// 		},
-	// 		{
-	// 			question: '',
-	// 			answer1: '',
-	// 			answer1img:
-	// 				'',
-	// 			answer1result: ,
-
-	// 			answer2: '',
-	// 			answer2img:
-	// 				'',
-	// 			answer2result: ,
-
-	// 			answer3: '',
-	// 			answer3img:
-	// 				'',
-	// 			answer3result: ,
-
-	// 			answer4: '',
-	// 			answer4img:
-	// 				'',
-	// 			answer4result:
-	// 		},
-	// 	],
-	// 	results: [
-	// 		{
-	// 			result: '',
-	// 			resultImage:
-	// 				'',
-	// 			resultCaption: ''
-	// 		},
-	// 		{
-	// 			result: '',
-	// 			resultImage: '',
-	// 			resultCaption: ''
-	// 		},
-	// 		{
-	// 			result: '',
-	// 			resultImage: '',
-	// 			resultCaption: ''
-	// 		},
-	// 		{
-	// 			result: '',
-	// 			resultImage:
-	// 				'',
-	// 			resultCaption: ''
-	// 		}
-	// 	]
-	// }
 ];
+			
+// 	// {
+// 	// 	name: '',
+// 	// 	caption: '',
+// 	// 	image: '',
+// 	// 	createdBy: '',
+// 	// 	questions: [
+// 	// 		{
+// 	// 			question: '',
+// 	// 			answer1: '',
+// 	// 			answer1img:
+// 	// 				'',
+// 	// 			answer1result: ,
+
+// 	// 			answer2: '',
+// 	// 			answer2img:
+// 	// 				'',
+// 	// 			answer2result: ,
+
+// 	// 			answer3: '',
+// 	// 			answer3img:
+// 	// 				'',
+// 	// 			answer3result: ,
+
+// 	// 			answer4: '',
+// 	// 			answer4img:
+// 	// 				'',
+// 	// 			answer4result:
+// 	// 		},
+// 	// 		{
+// 	// 			question: '',
+// 	// 			answer1: '',
+// 	// 			answer1img:
+// 	// 				'',
+// 	// 			answer1result: ,
+
+// 	// 			answer2: '',
+// 	// 			answer2img:
+// 	// 				'',
+// 	// 			answer2result: ,
+
+// 	// 			answer3: '',
+// 	// 			answer3img:
+// 	// 				'',
+// 	// 			answer3result: ,
+
+// 	// 			answer4: '',
+// 	// 			answer4img:
+// 	// 				'',
+// 	// 			answer4result:
+// 	// 		},
+// 	// 		{
+// 	// 			question: '',
+// 	// 			answer1: '',
+// 	// 			answer1img:
+// 	// 				'',
+// 	// 			answer1result: ,
+
+// 	// 			answer2: '',
+// 	// 			answer2img:
+// 	// 				'',
+// 	// 			answer2result: ,
+
+// 	// 			answer3: '',
+// 	// 			answer3img:
+// 	// 				'',
+// 	// 			answer3result: ,
+
+// 	// 			answer4: '',
+// 	// 			answer4img:
+// 	// 				'',
+// 	// 			answer4result:
+// 	// 		},
+// 	// 	],
+// 	// 	results: [
+// 	// 		{
+// 	// 			result: '',
+// 	// 			resultImage:
+// 	// 				'',
+// 	// 			resultCaption: ''
+// 	// 		},
+// 	// 		{
+// 	// 			result: '',
+// 	// 			resultImage: '',
+// 	// 			resultCaption: ''
+// 	// 		},
+// 	// 		{
+// 	// 			result: '',
+// 	// 			resultImage: '',
+// 	// 			resultCaption: ''
+// 	// 		},
+// 	// 		{
+// 	// 			result: '',
+// 	// 			resultImage:
+// 	// 				'',
+// 	// 			resultCaption: ''
+// 	// 		}
+// 	// 	]
+// 	// }
+// ];

@@ -114,7 +114,7 @@ module.exports = [
 		name: 'Which Harry Potter Character Are You?',
 		caption: 'Find out which magical person from the wizarding world you are!',
 		image:
-			'https://img.maximummedia.ie/joe_ie/eyJkYXRhIjoie1widXJsXCI6XCJodHRwOlxcXC9cXFwvbWVkaWEtam9lLm1heGltdW1tZWRpYS5pZS5zMy5hbWF6b25hd3MuY29tXFxcL3dwLWNvbnRlbnRcXFwvdXBsb2Fkc1xcXC8yMDE5XFxcLzA1XFxcLzMwMTIzNzI3XFxcL2hhcnJ5LXBvdHRlci0yLmpwZ1wiLFwid2lkdGhcIjo3NjcsXCJoZWlnaHRcIjo0MzEsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3d3dy5qb2UuaWVcXFwvYXNzZXRzXFxcL2ltYWdlc1xcXC9qb2VcXFwvbm8taW1hZ2UucG5nP2lkPTQzYmNhOWRlN2ViMjY5NzM3YTBmXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6IjAwZjc5MDNjNmE3OGI3NTE3YjQ4NjY5NDQ5YTZlZTdjYzczMWQzYmUifQ==/harry-potter-2.jpg',
+			'https://em.wattpad.com/c47e98e060a5bb8939205229aaa120934df4ca18/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6a574e5539335f576f5837374d513d3d2d3730363237353935312e3135386237343438616334613833393031313330363432303736302e676966?s=fit&w=720&h=720',
 		createdBy: 'dobby4life',
 		questions: [
 			{
@@ -341,32 +341,30 @@ module.exports = [
 		results: [
 			{
 				result: 'You got Harry Potter!',
-				resultImage: 'https://i.giphy.com/mz1kJeDVueKC4.gif',
+				resultImage: 'https://media1.giphy.com/media/NxLWZYEM4l5ug/source.gif',
 				resultCaption: "Congratulations! You are the 'boy who lived'!"
 			},
 			{
 				result: 'You got Hermione Granger!',
-				resultImage:
-					'http://www.biocenit.cat/mypics/69/691004/hermione-granger-hd-wallpapers.jpg',
+				resultImage: 'https://media1.giphy.com/media/12kmDEDUpTWe3e/source.gif',
 				resultCaption:
 					'Congratulations! You are the smartest witch of your age!'
 			},
 			{
 				result: 'You got Ron Weasley!',
-				resultImage:
-					'https://amp.insider.com/images/5637b1559dd7cc1a008c6797-750-563.jpg',
+				resultImage: 'https://media.giphy.com/media/148wdEYTQVcwBq/giphy.gif',
 				resultCaption: "Congratulations! You're a keeper!"
 			},
 			{
 				result: 'You got Draco Malfoy!',
 				resultImage:
-					'https://www.syfy.com/sites/syfy/files/styles/1200x680/public/wire/legacy/images/Draco_Malfoy_Tom_Felton.jpg',
+					'https://media1.popsugar-assets.com/files/thumbor/VMoWY-neS9Z7jvoildA3JV12lTI/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2015/07/21/945/n/1922283/6759acc1eea8883b_harry-potter-draco-malfoy-tom-felton/i/When-Mean-Lady-Airport-Wont-Let-You-Fly-Standby.gif',
 				resultCaption: 'Congratulations! Wait til your father hears about this!'
 			},
 			{
 				result: 'You got Luna Lovegood!',
 				resultImage:
-					'https://am22.akamaized.net/tms/cnt/uploads/2018/08/EvannaLynch.jpg',
+					'http://mrwgifs.com/wp-content/uploads/2013/05/Youre-Just-As-Sane-As-I-Am-Luna-In-Harry-Potter-Gif.gif',
 				resultCaption: 'Congratulations! Oh wait, are those nargles?'
 			}
 		]
@@ -694,7 +692,7 @@ module.exports = [
 
 				answer3: 'To win an Oscar',
 				answer3img:
-					'https://www.liveabout.com/thmb/t3119-dj4cOvEBhu8s2khH6_OYY=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/academy-of-motion-picture-arts-and-sciences---discover-the-academy--with-geoffrey-fletcher-142848283-5c759444c9e77c0001e98d4a.jpg',
+					'https://cdn.vox-cdn.com/thumbor/-kR74rqEeyR-anJzLjrpuE62d8s=/0x0:640x427/1200x800/filters:focal(269x163:371x265)/cdn.vox-cdn.com/uploads/chorus_image/image/63090959/oscar_stock_640.0.0.jpg',
 				answer3result: 3,
 
 				answer4: 'To be a musician',
@@ -751,7 +749,7 @@ module.exports = [
 
 				answer2: 'Quadex Power Core',
 				answer2img:
-					'https://static.turbosquid.com/Preview/2016/02/07__01_16_51/1.jpgfb8b2202-8da8-44c1-b426-058eaab7b80aOriginal.jpg',
+					'https://vignette.wikia.nocookie.net/starwars/images/8/8a/Generator_TOR.jpg/revision/latest?cb=20090106171428',
 				answer2result: 0,
 
 				answer3: 'The Eye of Harmony',
@@ -842,7 +840,7 @@ module.exports = [
 				question: 'Are you concerned about the environment?',
 				answer1: 'Somewhat',
 				answer1img:
-					'https://cdn.vox-cdn.com/thumbor/JwgLphg-g61PedB6q_XGimczuf8=/0x0:4769x3179/1200x800/filters:focal(0x0:4769x3179)/cdn.vox-cdn.com/uploads/chorus_image/image/46573090/Silver_918_Spyder_07.0.0.jpg',
+					'https://images.hgmsites.net/hug/2015-porsche-918-spyder_100462266_h.jpg',
 				answer1result: 1,
 
 				answer2: 'Of course',

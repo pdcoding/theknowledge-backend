@@ -10,11 +10,12 @@ quizzes.get('/', (req, res) => {
 		for (i = 0; i < allQuizzes.length; i++) {
 			let quizObject = {
 				name: allQuizzes[i].name,
-				caption: allQuizzes[i].caption,
+				// caption: allQuizzes[i].caption,
 				image: allQuizzes[i].image,
 				createdBy: allQuizzes[i].createdBy,
 				createdAt: allQuizzes[i].created_at,
-				id: allQuizzes[i]._id
+				id: allQuizzes[i]._id,
+				count: allQuizzes[i].count
 			};
 			quizArray.push(quizObject);
 		}
@@ -31,7 +32,8 @@ quizzes.post('/', (req, res) => {
 	const userObjectID = cookies.userid;
 	const updatedQuiz = req.body;
 	Object.assign(updatedQuiz, { createdBy: userObjectID });
-	console.log(updatedQuiz);
+	// console.log('CREATED QUIZ BELOW')
+	// console.log(updatedQuiz);
 
 	Quiz.create(updatedQuiz, (err, createdQuiz) => {
 		if (err) {
@@ -45,18 +47,17 @@ quizzes.post('/', (req, res) => {
 quizzes.get('/', (req, res) => {
 	//auth logic here
 	// do an axios call to this route
-	console.log(req.headers.cookie);
-	console.log(req.session);
-	console.log('test');
-
-	res.send('test');
+	// console.log(req.headers.cookie);
+	// console.log(req.session);
+	// console.log('test');
+	res.send('You have found The Knowledges backend!');
 });
 
 //MAKE THE PUT ROUTE FOR THE ITERATOR
 quizzes.put('/:id', (req, res) => {
 	Quiz.findByIdAndUpdate(
 		req.params.id,
-		{ $count: { qty: +1 } },
+		{ $inc: { count: 1 } },
 		(err, updatedCount) => {
 			if (err) {
 				res.status(400).json({ error: err.mesage });

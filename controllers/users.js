@@ -25,15 +25,13 @@ users.post('/', (req, res) => {
 // Get Display Name
 users.get('/:id', (req, res) => {
 	User.findById(req.params.id, (err, userInfo) => {
-		if (err) {
-			res.status(400).json({ error: err.message });
+		if (err || userInfo === null) {
+			res.send('The Knowledge');
 		} else {
 			res.send(userInfo.displayName);
 		}
 	});
 });
-
-module.exports = users;
 
 // Adapted from https://stackoverflow.com/questions/3393854/
 const parseCookies = cookies => {
@@ -46,3 +44,5 @@ const parseCookies = cookies => {
 
 	return cookiesObj;
 };
+
+module.exports = users;

@@ -745,7 +745,7 @@ module.exports = [
 		createdBy: 'pita',
 		questions: [
 			{
-				question: 'Pick your favorite city.',
+				question: 'Pick your favorite city',
 				answer1: 'New York',
 				answer1img:
 					'https://wp.zillowstatic.com/streeteasy/2/shutterstock_695847865-bcd2e5.jpg',
@@ -767,22 +767,22 @@ module.exports = [
 				answer4result: 3
 			},
 			{
-				question: 'How do you greet people',
+				question: 'How do you greet people?',
 				answer1: 'Aloha',
 				answer1img:
-					'https://ak2.picdn.net/shutterstock/videos/1014950902/thumb/1.jpghttps://www.hawaiidiscount.com/Portals/0/hawaii-loa-luau-sm.jpg',
+					'https://www.hawaiidiscount.com/Portals/0/hawaii-loa-luau-sm.jpg',
 				answer1result: 1,
 
-				answer2: 'Hello',
+				answer2: '',
 				answer2img: 'https://media.makeameme.org/created/hello-it-me-5aa2a9.jpg',
 				answer2result: 0,
 
-				answer4: 'Wazzup',
+				answer4: '',
 				answer4img:
 					'https://slm-assets1.secondlife.com/assets/16904568/view_large/Wazzup_2.jpg?1492339771',
 				answer4result: 3,
 
-				answer3: 'Greetings',
+				answer3: '',
 				answer3img: 'https://the-next-big-think.com/wp-content/uploads/2012/01/GreetingsEarthlingsOrange.gif',
 				answer3result: 2
 			},
@@ -799,7 +799,7 @@ module.exports = [
 
 				answer3: 'Everyday',
 				answer3img:
-					'https://previews.123rf.com/images/kiuikson/kiuikson1512/kiuikson151200096/49641435-handsome-smiling-man-wearing-jeans-and-white-t-shirt-pure-natural-photo-of-natural-man-with-perfect-.jpg',
+					'https://www.lionsroar.com/wp-content/uploads/2013/05/dude-koan-1.jpg',
 				answer3result: 0,
 
 				answer4: 'Hippy',
@@ -815,7 +815,7 @@ module.exports = [
 					resultCaption: 'Congrats! You are regular!'
 				},
 				{
-					result: 'Hawaiian',//maybe put in instructor pic
+					result: 'Hawaiian',
 					resultImage: 'https://www.pngkey.com/png/detail/186-1862708_pizza-slice-png-download-hawaiian-pizza-slice-png.png',
 					resultCaption: "Aloha! You're a ham!" 
 				},
@@ -1028,43 +1028,43 @@ module.exports = [
 // ]
 	{
 		name: 'Are you a programmer?',
-		caption: 'Take a quiz to see what kind of programmer you are',
-		image: 'https://media.giphy.com/media/vzO0Vc8b2VBLi/giphy.gif',
+		caption: 'Take a quiz to see what kind of programmer you are!',
+		image: 'https://media0.giphy.com/media/13HgwGsXF0aiGY/source.gif',
 		createdBy: 'pita',
 		questions: [
 			{
-				question: 'Which image best describes your understanding of programming?',
+				question: 'Which image best represents your understanding of programming?',
 				answer1: '',
 				answer1img:
 					'https://pbs.twimg.com/media/DyU6X0TXcAAOsTF.jpg',
-				answer1result: 2,
+				answer1result: 1,
 
 				answer2: '',
 				answer2img:
-					'https://i.pinimg.com/736x/64/e8/48/64e84853aaa2a974fc88b1a4c614a7f2.jpg',
-				answer2result: 1,
+					'https://coder.clothing/images/stories/virtuemart/product/reactjs-logo-sticker.jpg',
+				answer2result: 2,
 
 				answer3: '',
 				answer3img:
-					'https://i.imgur.com/xEcD0Ih.png',
+					'https://cdn.shopify.com/s/files/1/0537/1501/products/Pied_Piper_Square_1024x1024.jpg?v=1557517018',
 				answer3result: 0,
 
 				answer4: '',
 				answer4img:
-					'https://www.probytes.net/wp-content/uploads/2018/01/2.jpg',
+					'http://www.cvcc.edu/images/Computer_Program1_8244.jpg',
 				answer4result: 3,
 			}
 		],
 		results: [
 			{
-				result: 'Programming Legend',
+				result: 'Legend',
 				resultImage:
-					'https://codinginfinite.com/wp-content/uploads/2019/05/maxresdefault-1.jpg',
+					'http://www.gstatic.com/tv/thumb/persons/554667/554667_v9_bb.jpg',
 				resultCaption: 'You are a programming legend!'
 			},
 			{
 				result: 'Basic',
-				resultImage: 'https://media.licdn.com/dms/image/C5103AQHc_Q6gebYfcg/profile-displayphoto-shrink_200_200/0?e=1568246400&v=beta&t=3-6G7ma_xl4P5EtaO_z0SHaXSMbNvEygD4HHm9QneTM',
+				resultImage: 'https://www.warrenchandler.com/wp-content/uploads/2015/05/Warren-The-Programmer-1024x740.jpg',
 				resultCaption: 'You understand the fundamentals'
 			},
 			{

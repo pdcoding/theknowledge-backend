@@ -743,7 +743,7 @@ module.exports = [
 		createdBy: 'pita',
 		questions: [
 			{
-				question: 'Pick your favorite city.',
+				question: 'Pick your favorite city',
 				answer1: 'New York',
 				answer1img:
 					'https://wp.zillowstatic.com/streeteasy/2/shutterstock_695847865-bcd2e5.jpg',
@@ -765,25 +765,28 @@ module.exports = [
 				answer4result: 3
 			},
 			{
-				question: 'How do you greet people',
+				question: 'How do you greet people?',
 				answer1: 'Aloha',
 				answer1img:
-					'https://ak2.picdn.net/shutterstock/videos/1014950902/thumb/1.jpghttps://www.hawaiidiscount.com/Portals/0/hawaii-loa-luau-sm.jpg',
+					'https://www.hawaiidiscount.com/Portals/0/hawaii-loa-luau-sm.jpg',
 				answer1result: 1,
 
-				answer2: 'Hello',
-				answer2img:
-					'https://media.makeameme.org/created/hello-it-me-5aa2a9.jpg',
+
+				answer2: '',
+				answer2img: 'https://media.makeameme.org/created/hello-it-me-5aa2a9.jpg',
+
+
+
 				answer2result: 0,
 
-				answer4: 'Wazzup',
+				answer4: '',
 				answer4img:
 					'https://slm-assets1.secondlife.com/assets/16904568/view_large/Wazzup_2.jpg?1492339771',
 				answer4result: 3,
 
-				answer3: 'Greetings',
-				answer3img:
-					'https://the-next-big-think.com/wp-content/uploads/2012/01/GreetingsEarthlingsOrange.gif',
+
+				answer3: '',
+				answer3img: 'https://the-next-big-think.com/wp-content/uploads/2012/01/GreetingsEarthlingsOrange.gif',
 				answer3result: 2
 			},
 			{
@@ -800,41 +803,38 @@ module.exports = [
 
 				answer3: 'Everyday',
 				answer3img:
-					'https://previews.123rf.com/images/kiuikson/kiuikson1512/kiuikson151200096/49641435-handsome-smiling-man-wearing-jeans-and-white-t-shirt-pure-natural-photo-of-natural-man-with-perfect-.jpg',
+					'https://www.lionsroar.com/wp-content/uploads/2013/05/dude-koan-1.jpg',
 				answer3result: 0,
 
 				answer4: 'Hippy',
 				answer4img:
 					'https://images-na.ssl-images-amazon.com/images/I/911m9JeBTTL._UL1500_.jpg',
 				answer4result: 2
-			}
-		],
-		results: [
-			{
-				result: 'Plain',
-				resultImage:
-					'https://www.saintclarefestival.net/wp-content/uploads/2018/05/Google-Reuse-Unknown-Cheese-Pizza-Slice.jpg',
-				resultCaption: 'Congrats! You are regular!'
-			},
-			{
-				result: 'Hawaiian', //maybe put in instructor pic
-				resultImage:
-					'https://www.pngkey.com/png/detail/186-1862708_pizza-slice-png-download-hawaiian-pizza-slice-png.png',
-				resultCaption: "Aloha! You're a ham!"
-			},
-			{
-				result: 'Veggie',
-				resultImage:
-					'https://slice.seriouseats.com/images/2012/08/2012082-02193090-DS-Grey%20Block-Salad%20Body.jpg',
-				resultCaption: "Nice! You're lean and green!"
-			},
-			{
-				result: 'Meatlovers',
-				resultImage:
-					'http://broadwaypizza.com.au/wp-content/uploads/2015/10/Pizza-7.jpg',
-				resultCaption: "Yum! You're a lover not a fighter!"
-			}
-		]
+			}],
+			results: [
+				{
+					result: 'Plain',
+					resultImage:
+						'https://www.saintclarefestival.net/wp-content/uploads/2018/05/Google-Reuse-Unknown-Cheese-Pizza-Slice.jpg',
+					resultCaption: 'Congrats! You are regular!'
+				},
+				{
+					result: 'Hawaiian',
+					resultImage: 'https://www.pngkey.com/png/detail/186-1862708_pizza-slice-png-download-hawaiian-pizza-slice-png.png',
+					resultCaption: "Aloha! You're a ham!" 
+				},
+				{
+					result: 'Veggie',
+					resultImage: 'https://slice.seriouseats.com/images/2012/08/2012082-02193090-DS-Grey%20Block-Salad%20Body.jpg',
+					resultCaption: "Nice! You're lean and green!"
+				},
+				{
+					result: 'Meatlovers',
+					resultImage:
+						'http://broadwaypizza.com.au/wp-content/uploads/2015/10/Pizza-7.jpg',
+					resultCaption: "Yum! You're a lover not a fighter!"
+				}
+			],
 	},
 	{
 		name: 'What Sci-Fi Vehicle Are You?',
@@ -1032,24 +1032,25 @@ module.exports = [
 	},
 	{
 		name: 'Are you a programmer?',
-		caption: 'Take a quiz to see what kind of programmer you are',
-		image: 'https://media.giphy.com/media/vzO0Vc8b2VBLi/giphy.gif',
+		caption: 'Take a quiz to see what kind of programmer you are!',
+		image: 'https://media0.giphy.com/media/13HgwGsXF0aiGY/source.gif',
 		createdBy: 'pita',
 		questions: [
 			{
-				question:
-					'Which image best describes your understanding of programming?',
+				question: 'Which image best represents your understanding of programming?',
 				answer1: '',
-				answer1img: 'https://pbs.twimg.com/media/DyU6X0TXcAAOsTF.jpg',
-				answer1result: 2,
+				answer1img:
+					'https://pbs.twimg.com/media/DyU6X0TXcAAOsTF.jpg',
+				answer1result: 1,
 
 				answer2: '',
 				answer2img:
-					'https://i.pinimg.com/736x/64/e8/48/64e84853aaa2a974fc88b1a4c614a7f2.jpg',
-				answer2result: 1,
+					'https://coder.clothing/images/stories/virtuemart/product/reactjs-logo-sticker.jpg',
+				answer2result: 2,
 
 				answer3: '',
-				answer3img: 'https://i.imgur.com/xEcD0Ih.png',
+				answer3img:
+					'https://cdn.shopify.com/s/files/1/0537/1501/products/Pied_Piper_Square_1024x1024.jpg?v=1557517018',
 				answer3result: 0,
 
 				answer4: '',
@@ -1059,27 +1060,26 @@ module.exports = [
 		],
 		results: [
 			{
-				result: 'Programming Legend',
+				result: 'Legend',
 				resultImage:
-					'https://codinginfinite.com/wp-content/uploads/2019/05/maxresdefault-1.jpg',
-				resultCaption: 'you are a programming legend!'
+					'http://www.gstatic.com/tv/thumb/persons/554667/554667_v9_bb.jpg',
+				resultCaption: 'You are a programming legend!'
 			},
 			{
 				result: 'Basic',
-				resultImage: '',
-				resultCaption: 'you are a programmer that can do the basics'
+				resultImage: 'https://www.warrenchandler.com/wp-content/uploads/2015/05/Warren-The-Programmer-1024x740.jpg',
+				resultCaption: 'You understand the fundamentals'
 			},
 			{
 				result: 'Legit',
-				resultImage:
-					'https://library.kissclipart.com/20180922/sow/kissclipart-cartoon-clipart-programmer-computer-programming-ca-ef26de30812ddda7.jpg',
-				resultCaption: 'you are a legit programmer'
+				resultImage: 'https://library.kissclipart.com/20180922/sow/kissclipart-cartoon-clipart-programmer-computer-programming-ca-ef26de30812ddda7.jpg',
+				resultCaption: 'You are a legit programmer'
 			},
 			{
-				result: '(in?)famous',
+				result: 'Famous',
 				resultImage:
 					'https://image.cnbcfm.com/api/v1/image/104445875-1548885263261gettyimages-669913902r.jpg?v=1548935008&w=1400&h=950',
-				resultCaption: 'you are a famous programmer'
+				resultCaption: 'You are a famous programmer'
 			}
 		]
 	},

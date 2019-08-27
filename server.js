@@ -52,8 +52,8 @@ app.use(
 		secret: process.env.SECRET,
 		resave: false,
 		saveUninitialized: false,
-		store: new MongoStore({ mongooseConnection: db }),
-		cookie: {}
+		store: new MongoStore({ mongooseConnection: db })
+		// cookie: { }
 	})
 );
 

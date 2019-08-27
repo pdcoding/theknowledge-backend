@@ -114,7 +114,7 @@ module.exports = [
 		name: 'Which Harry Potter Character Are You?',
 		caption: 'Find out which magical person from the wizarding world you are!',
 		image:
-			'https://img.maximummedia.ie/joe_ie/eyJkYXRhIjoie1widXJsXCI6XCJodHRwOlxcXC9cXFwvbWVkaWEtam9lLm1heGltdW1tZWRpYS5pZS5zMy5hbWF6b25hd3MuY29tXFxcL3dwLWNvbnRlbnRcXFwvdXBsb2Fkc1xcXC8yMDE5XFxcLzA1XFxcLzMwMTIzNzI3XFxcL2hhcnJ5LXBvdHRlci0yLmpwZ1wiLFwid2lkdGhcIjo3NjcsXCJoZWlnaHRcIjo0MzEsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3d3dy5qb2UuaWVcXFwvYXNzZXRzXFxcL2ltYWdlc1xcXC9qb2VcXFwvbm8taW1hZ2UucG5nP2lkPTQzYmNhOWRlN2ViMjY5NzM3YTBmXCIsXCJvcHRpb25zXCI6W119IiwiaGFzaCI6IjAwZjc5MDNjNmE3OGI3NTE3YjQ4NjY5NDQ5YTZlZTdjYzczMWQzYmUifQ==/harry-potter-2.jpg',
+			'https://em.wattpad.com/c47e98e060a5bb8939205229aaa120934df4ca18/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f6a574e5539335f576f5837374d513d3d2d3730363237353935312e3135386237343438616334613833393031313330363432303736302e676966?s=fit&w=720&h=720',
 		createdBy: 'dobby4life',
 		questions: [
 			{
@@ -341,32 +341,30 @@ module.exports = [
 		results: [
 			{
 				result: 'You got Harry Potter!',
-				resultImage: 'https://i.giphy.com/mz1kJeDVueKC4.gif',
+				resultImage: 'https://media1.giphy.com/media/NxLWZYEM4l5ug/source.gif',
 				resultCaption: "Congratulations! You are the 'boy who lived'!"
 			},
 			{
 				result: 'You got Hermione Granger!',
-				resultImage:
-					'http://www.biocenit.cat/mypics/69/691004/hermione-granger-hd-wallpapers.jpg',
+				resultImage: 'https://media1.giphy.com/media/12kmDEDUpTWe3e/source.gif',
 				resultCaption:
 					'Congratulations! You are the smartest witch of your age!'
 			},
 			{
 				result: 'You got Ron Weasley!',
-				resultImage:
-					'https://amp.insider.com/images/5637b1559dd7cc1a008c6797-750-563.jpg',
+				resultImage: 'https://media.giphy.com/media/148wdEYTQVcwBq/giphy.gif',
 				resultCaption: "Congratulations! You're a keeper!"
 			},
 			{
 				result: 'You got Draco Malfoy!',
 				resultImage:
-					'https://www.syfy.com/sites/syfy/files/styles/1200x680/public/wire/legacy/images/Draco_Malfoy_Tom_Felton.jpg',
+					'https://media1.popsugar-assets.com/files/thumbor/VMoWY-neS9Z7jvoildA3JV12lTI/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2015/07/21/945/n/1922283/6759acc1eea8883b_harry-potter-draco-malfoy-tom-felton/i/When-Mean-Lady-Airport-Wont-Let-You-Fly-Standby.gif',
 				resultCaption: 'Congratulations! Wait til your father hears about this!'
 			},
 			{
 				result: 'You got Luna Lovegood!',
 				resultImage:
-					'https://am22.akamaized.net/tms/cnt/uploads/2018/08/EvannaLynch.jpg',
+					'http://mrwgifs.com/wp-content/uploads/2013/05/Youre-Just-As-Sane-As-I-Am-Luna-In-Harry-Potter-Gif.gif',
 				resultCaption: 'Congratulations! Oh wait, are those nargles?'
 			}
 		]
@@ -694,7 +692,7 @@ module.exports = [
 
 				answer3: 'To win an Oscar',
 				answer3img:
-					'https://www.liveabout.com/thmb/t3119-dj4cOvEBhu8s2khH6_OYY=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/academy-of-motion-picture-arts-and-sciences---discover-the-academy--with-geoffrey-fletcher-142848283-5c759444c9e77c0001e98d4a.jpg',
+					'http://www.enniomorricone.org/wp-content/uploads/2016/02/oscar.jpg',
 				answer3result: 3,
 
 				answer4: 'To be a musician',
@@ -736,6 +734,108 @@ module.exports = [
 			}
 		]
 	},
+
+	{
+		//peter
+		name: 'What type of pizza are you?',
+		caption: 'Find out what type of pizza you are!',
+		image: 'https://i.imgflip.com/qt8f1.jpg',
+		createdBy: 'pita',
+		questions: [
+			{
+				question: 'Pick your favorite city',
+				answer1: 'New York',
+				answer1img:
+					'https://wp.zillowstatic.com/streeteasy/2/shutterstock_695847865-bcd2e5.jpg',
+				answer1result: 0,
+
+				answer2: 'Honolulu',
+				answer2img:
+					'https://www.hawaiimagazine.com/sites/default/files/field/image/GettyImages-937463818.jpg',
+				answer2result: 1,
+
+				answer3: 'San Fransisco',
+				answer3img:
+					'https://upload.wikimedia.org/wikipedia/commons/1/1e/San_Francisco_from_the_Marin_Headlands_in_March_2019.jpg',
+				answer3result: 2,
+
+				answer4: 'Chicago',
+				answer4img:
+					'https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/chicago/Choose_Chicago_8086f9ab-7fa4-4515-aaca-244b7ca7e0f6.jpg',
+				answer4result: 3
+			},
+			{
+				question: 'How do you greet people?',
+				answer1: 'Aloha',
+				answer1img:
+					'https://www.hawaiidiscount.com/Portals/0/hawaii-loa-luau-sm.jpg',
+				answer1result: 1,
+
+
+				answer2: '',
+				answer2img: 'https://media.makeameme.org/created/hello-it-me-5aa2a9.jpg',
+
+
+
+				answer2result: 0,
+
+				answer4: '',
+				answer4img:
+					'https://slm-assets1.secondlife.com/assets/16904568/view_large/Wazzup_2.jpg?1492339771',
+				answer4result: 3,
+
+
+				answer3: '',
+				answer3img: 'https://the-next-big-think.com/wp-content/uploads/2012/01/GreetingsEarthlingsOrange.gif',
+				answer3result: 2
+			},
+			{
+				question: 'Pick your favorite outfit',
+				answer1: 'Chill',
+				answer1img:
+					'https://46fjj12eeht73lsxezcqpvlt-wpengine.netdna-ssl.com/wp-content/uploads/2015/05/hawaiianshirts_elvisbluehawaii.jpg',
+				answer1result: 1,
+
+				answer2: 'Athletic',
+				answer2img:
+					'https://fivethirtyeight.com/wp-content/uploads/2017/07/judge1.jpg?w=575',
+				answer2result: 3,
+
+				answer3: 'Everyday',
+				answer3img:
+					'https://www.lionsroar.com/wp-content/uploads/2013/05/dude-koan-1.jpg',
+				answer3result: 0,
+
+				answer4: 'Hippy',
+				answer4img:
+					'https://images-na.ssl-images-amazon.com/images/I/911m9JeBTTL._UL1500_.jpg',
+				answer4result: 2
+			}],
+			results: [
+				{
+					result: 'Plain',
+					resultImage:
+						'https://www.saintclarefestival.net/wp-content/uploads/2018/05/Google-Reuse-Unknown-Cheese-Pizza-Slice.jpg',
+					resultCaption: 'Congrats! You are regular!'
+				},
+				{
+					result: 'Hawaiian',
+					resultImage: 'https://www.pngkey.com/png/detail/186-1862708_pizza-slice-png-download-hawaiian-pizza-slice-png.png',
+					resultCaption: "Aloha! You're a ham!" 
+				},
+				{
+					result: 'Veggie',
+					resultImage: 'https://slice.seriouseats.com/images/2012/08/2012082-02193090-DS-Grey%20Block-Salad%20Body.jpg',
+					resultCaption: "Nice! You're lean and green!"
+				},
+				{
+					result: 'Meatlovers',
+					resultImage:
+						'http://broadwaypizza.com.au/wp-content/uploads/2015/10/Pizza-7.jpg',
+					resultCaption: "Yum! You're a lover not a fighter!"
+				}
+			],
+	},
 	{
 		name: 'What Sci-Fi Vehicle Are You?',
 		caption: 'Find our which science fiction mode of transport you are.',
@@ -751,7 +851,7 @@ module.exports = [
 
 				answer2: 'Quadex Power Core',
 				answer2img:
-					'https://static.turbosquid.com/Preview/2016/02/07__01_16_51/1.jpgfb8b2202-8da8-44c1-b426-058eaab7b80aOriginal.jpg',
+					'https://vignette.wikia.nocookie.net/starwars/images/8/8a/Generator_TOR.jpg/revision/latest?cb=20090106171428',
 				answer2result: 0,
 
 				answer3: 'The Eye of Harmony',
@@ -842,7 +942,7 @@ module.exports = [
 				question: 'Are you concerned about the environment?',
 				answer1: 'Somewhat',
 				answer1img:
-					'https://cdn.vox-cdn.com/thumbor/JwgLphg-g61PedB6q_XGimczuf8=/0x0:4769x3179/1200x800/filters:focal(0x0:4769x3179)/cdn.vox-cdn.com/uploads/chorus_image/image/46573090/Silver_918_Spyder_07.0.0.jpg',
+					'https://images.hgmsites.net/hug/2015-porsche-918-spyder_100462266_h.jpg',
 				answer1result: 1,
 
 				answer2: 'Of course',
@@ -929,103 +1029,156 @@ module.exports = [
 				resultCaption: 'You got Hyper Hybrid'
 			}
 		]
+	},
+	{
+		name: 'Are you a programmer?',
+		caption: 'Take a quiz to see what kind of programmer you are!',
+		image: 'https://media0.giphy.com/media/13HgwGsXF0aiGY/source.gif',
+		createdBy: 'pita',
+		questions: [
+			{
+				question: 'Which image best represents your understanding of programming?',
+				answer1: '',
+				answer1img:
+					'https://pbs.twimg.com/media/DyU6X0TXcAAOsTF.jpg',
+				answer1result: 1,
+
+				answer2: '',
+				answer2img:
+					'https://coder.clothing/images/stories/virtuemart/product/reactjs-logo-sticker.jpg',
+				answer2result: 2,
+
+				answer3: '',
+				answer3img:
+					'https://cdn.shopify.com/s/files/1/0537/1501/products/Pied_Piper_Square_1024x1024.jpg?v=1557517018',
+				answer3result: 0,
+
+				answer4: '',
+				answer4img: 'https://www.probytes.net/wp-content/uploads/2018/01/2.jpg',
+				answer4result: 3
+			}
+		],
+		results: [
+			{
+				result: 'Legend',
+				resultImage:
+					'http://www.gstatic.com/tv/thumb/persons/554667/554667_v9_bb.jpg',
+				resultCaption: 'You are a programming legend!'
+			},
+			{
+				result: 'Basic',
+				resultImage: 'https://www.warrenchandler.com/wp-content/uploads/2015/05/Warren-The-Programmer-1024x740.jpg',
+				resultCaption: 'You understand the fundamentals'
+			},
+			{
+				result: 'Legit',
+				resultImage: 'https://library.kissclipart.com/20180922/sow/kissclipart-cartoon-clipart-programmer-computer-programming-ca-ef26de30812ddda7.jpg',
+				resultCaption: 'You are a legit programmer'
+			},
+			{
+				result: 'Famous',
+				resultImage:
+					'https://image.cnbcfm.com/api/v1/image/104445875-1548885263261gettyimages-669913902r.jpg?v=1548935008&w=1400&h=950',
+				resultCaption: 'You are a famous programmer'
+			}
+		]
+	},
+
+	{
+		name: 'Which character from The Office are you?',
+		caption: 'Find out who in The Office you are!',
+		image: 'http://giphygifs.s3.amazonaws.com/media/dYTcNf0QZucNi/giphy.gif',
+		createdBy: 'scrantonstrangler04',
+		questions: [
+			{
+				question: 'What is your favorite animal?',
+				answer1: 'Bears',
+				answer1img:
+					'https://wildsafebc.com/wp-content/uploads/2017/07/blackbear-e1501281687765.jpg',
+				answer1result: 0,
+
+				answer2: 'Red lipped batfish',
+				answer2img:
+					'https://static.boredpanda.com/blog/wp-content/uuuploads/strange-animals-you-didnt-know-2/strange-animals-you-didnt-know-2-2.jpg',
+				answer2result: 2,
+
+				answer3: 'Puppies',
+				answer3img:
+					'https://peopledotcom.files.wordpress.com/2019/01/GettyImages-85597067.jpg',
+				answer3result: 3,
+
+				answer4: 'People',
+				answer4img: 'http://ichef.bbci.co.uk/images/ic/640x360/p033tw9j.jpg',
+				answer4result: 1
+			},
+			{
+				question: 'What is your favorite food?',
+				answer1: 'Mung beans',
+				answer1img:
+					'https://www.indianhealthyrecipes.com/wp-content/uploads/2018/09/mung-bean-sprouts-500x500.jpg',
+				answer1result: 2,
+
+				answer2: 'M&Ms',
+				answer2img:
+					'https://upload.wikimedia.org/wikipedia/commons/e/e5/Plain-M%26Ms-Pile.jpg',
+				answer2result: 3,
+
+				answer3: 'Beets',
+				answer3img:
+					'https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/AN172-Beets-1296x728-Header.jpg?w=1155',
+				answer3result: 0,
+
+				answer4: 'Chicken breast, hold the chicken',
+				answer4img:
+					'https://www.apinchofhealthy.com/wp-content/uploads/2019/01/Baked-Chicken-Breast-cooked-closeup.jpg',
+				answer4result: 1
+			},
+			{
+				question: 'What is your favortie TV show?',
+				answer1: 'Baywatch',
+				answer1img:
+					'https://images-na.ssl-images-amazon.com/images/I/91r6RiRvMCL._RI_.jpg',
+				answer1result: 3,
+
+				answer2: 'My favorite what?',
+				answer2img:
+					'https://st3.depositphotos.com/1184748/18367/v/600/depositphotos_183677028-stock-video-black-white-vhs-glitch-noise.jpg',
+				answer2result: 2,
+
+				answer3: 'Survivor',
+				answer3img:
+					'https://morewhatnot.files.wordpress.com/2015/11/multilogoimage1.jpg?w=584',
+				answer3result: 1,
+
+				answer4: 'Battlestar Galactica',
+				answer4img:
+					'https://miro.medium.com/max/2560/1*x3osWny_7Ouh5nmbq5HpuQ.jpeg',
+				answer4result: 0
+			}
+		],
+		results: [
+			{
+				result: 'Dwight K. Schrute',
+				resultImage: 'https://media0.giphy.com/media/3t7RAFhu75Wwg/giphy.gif',
+				resultCaption:
+					'Congrats! You are the Assistant to the Regional Manager!'
+			},
+			{
+				result: 'Michael Scott',
+				resultImage: 'https://media2.giphy.com/media/8wkXMxbONnEFq/giphy.gif',
+				resultCaption: "That's what she said."
+			},
+			{
+				result: 'Creed',
+				resultImage:
+					'https://media1.tenor.com/images/8d1b668ba8ae379e7d06f105cf8ebf01/tenor.gif?itemid=8100976',
+				resultCaption: 'You are...pretty weird.'
+			},
+			{
+				result: 'Kevin',
+				resultImage: 'https://media1.giphy.com/media/4n6XcirHTBzs4/giphy.gif',
+				resultCaption: 'Congrat! Why say lot word when few word do trick?'
+			}
+		]
 	}
-	// {
-	// 	name: '',
-	// 	caption: '',
-	// 	image: '',
-	// 	createdBy: '',
-	// 	questions: [
-	// 		{
-	// 			question: '',
-	// 			answer1: '',
-	// 			answer1img:
-	// 				'',
-	// 			answer1result: ,
-
-	// 			answer2: '',
-	// 			answer2img:
-	// 				'',
-	// 			answer2result: ,
-
-	// 			answer3: '',
-	// 			answer3img:
-	// 				'',
-	// 			answer3result: ,
-
-	// 			answer4: '',
-	// 			answer4img:
-	// 				'',
-	// 			answer4result:
-	// 		},
-	// 		{
-	// 			question: '',
-	// 			answer1: '',
-	// 			answer1img:
-	// 				'',
-	// 			answer1result: ,
-
-	// 			answer2: '',
-	// 			answer2img:
-	// 				'',
-	// 			answer2result: ,
-
-	// 			answer3: '',
-	// 			answer3img:
-	// 				'',
-	// 			answer3result: ,
-
-	// 			answer4: '',
-	// 			answer4img:
-	// 				'',
-	// 			answer4result:
-	// 		},
-	// 		{
-	// 			question: '',
-	// 			answer1: '',
-	// 			answer1img:
-	// 				'',
-	// 			answer1result: ,
-
-	// 			answer2: '',
-	// 			answer2img:
-	// 				'',
-	// 			answer2result: ,
-
-	// 			answer3: '',
-	// 			answer3img:
-	// 				'',
-	// 			answer3result: ,
-
-	// 			answer4: '',
-	// 			answer4img:
-	// 				'',
-	// 			answer4result:
-	// 		},
-	// 	],
-	// 	results: [
-	// 		{
-	// 			result: '',
-	// 			resultImage:
-	// 				'',
-	// 			resultCaption: ''
-	// 		},
-	// 		{
-	// 			result: '',
-	// 			resultImage: '',
-	// 			resultCaption: ''
-	// 		},
-	// 		{
-	// 			result: '',
-	// 			resultImage: '',
-	// 			resultCaption: ''
-	// 		},
-	// 		{
-	// 			result: '',
-	// 			resultImage:
-	// 				'',
-	// 			resultCaption: ''
-	// 		}
-	// 	]
-	// }
 ];

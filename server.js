@@ -9,7 +9,11 @@ const MONGODB_URI =
 	process.env.MONGODB_URI || 'mongodb://localhost:27017/knowledge';
 const MongoStore = require('connect-mongo')(session);
 
-const whitelist = ['http://localhost:3000', 'http://theknowledge.surge.sh'];
+const whitelist = [
+	'http://localhost:3000',
+	'http://theknowledge.surge.sh',
+	'https://theknowledge.surge.sh'
+];
 const corsOptions = {
 	credentials: true,
 	origin: (origin, callback) => {

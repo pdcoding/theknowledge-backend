@@ -12,10 +12,12 @@ users.post('/', (req, res) => {
 				res.cookie('user', foundUser.email);
 				res.cookie('userid', String(foundUser._id));
 				res.send('logged in');
+				console.log(res);
 			}
 		} else {
 			res.status(200);
 			res.send('wrong username or password');
+			console.log(res);
 		}
 	});
 });

@@ -31,14 +31,14 @@ users.post('/', (req, res) => {
 // Delete
 users.delete('/', (req, res) => {
 	// req.session.destroy(() => {});
-	req.session.destroy((err, currentSession) => {
-		console.log('CURRENT SESSION BELOW');
-		console.log(currentSession);
-		if (err) {
-			res.status(200).json({ error: err.message });
-		}
-		res.status(200).json(currentSession);
-	});
+	// req.session.destroy((err, currentSession) => {
+	// console.log('CURRENT SESSION BELOW');
+	// console.log(currentSession);
+	// 	if (err) {
+	// 		res.status(200).json({ error: err.message });
+	// 	}
+	// 	res.status(200).json(currentSession);
+	// });
 	// res.clearCookie('user');
 	// res.clearCookie('sessionid');
 	// res.clearCookie('userid');

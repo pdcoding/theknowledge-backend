@@ -11,6 +11,7 @@ const MongoStore = require('connect-mongo')(session);
 
 const whitelist = [
 	'http://localhost:3000',
+	'http://localhost',
 	'http://theknowledge.surge.sh',
 	'https://theknowledge.surge.sh'
 ];

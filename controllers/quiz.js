@@ -27,10 +27,18 @@ quizzes.get('/', (req, res) => {
 
 // create quiz
 quizzes.post('/', (req, res) => {
+	// console.log('req.session below');
+	// console.log(req.session); // comes back with: cookie: { path: '/', _expires: null, originalMaxAge: null, httpOnly: true }
+
 	// Check if current session exists before posting
-	if (req.session.currentUser) {
-		const cookies = parseCookies(req.headers.cookie);
-		const userObjectID = cookies.userid;
+	// if (req.session.currentUser) {
+	// const cookies = parseCookies(req.headers.cookie);
+	// const userObjectID = cookies.userid;
+	// console.log(req.headers.userid);
+
+	if (req.headers.userid) {
+		const userObjectID = req.headers.userid;
+
 		const updatedQuiz = req.body;
 		Object.assign(updatedQuiz, { createdBy: userObjectID });
 
@@ -64,7 +72,8 @@ quizzes.put('/:id', (req, res) => {
 // delete quiz
 quizzes.delete('/:id', (req, res) => {
 	// Check if current session exists before posting
-	if (req.session.currentUser) {
+	// if (req.session.currentUser) {
+	if (req.headers.userid) {
 		Quiz.findByIdAndRemove(req.params.id, (err, deletedQuiz) => {
 			if (err) {
 				res.status(400).json({ error: err.message });
@@ -99,15 +108,15 @@ quizzes.get('/:id', (req, res) => {
 });
 
 // Adapted from https://stackoverflow.com/questions/3393854/
-const parseCookies = cookies => {
-	let cookiesObj = {};
+// const parseCookies = cookies => {
+// 	let cookiesObj = {};
 
-	cookies.split(';').forEach(cookie => {
-		let parts = cookie.split('=');
-		cookiesObj[parts.shift().trim()] = decodeURI(parts.join('='));
-	});
+// 	cookies.split(';').forEach(cookie => {
+// 		let parts = cookie.split('=');
+// 		cookiesObj[parts.shift().trim()] = decodeURI(parts.join('='));
+// 	});
 
-	return cookiesObj;
-};
+// 	return cookiesObj;
+// };
 
 module.exports = quizzes;

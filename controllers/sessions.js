@@ -8,11 +8,17 @@ users.post('/', (req, res) => {
 		if (foundUser) {
 			if (bcrypt.compareSync(req.body.password, foundUser.password)) {
 				req.session.currentUser = foundUser;
-				res.cookie('sessionid', req.session.id, {});
-				res.cookie('user', foundUser.email);
-				res.cookie('userid', String(foundUser._id));
-				res.send('logged in');
-				console.log(res);
+				const info = {
+					sessionid: req.session.id,
+					user: foundUser.email,
+					userid: String(foundUser._id)
+				};
+				// res.cookie('sessionid', req.session.id, {});
+				// res.cookie('user', foundUser.email);
+				// res.cookie('userid', String(foundUser._id));
+				// res.send('logged in');
+				// console.log(res);
+				res.json(info);
 			}
 		} else {
 			res.status(200);
@@ -24,10 +30,18 @@ users.post('/', (req, res) => {
 
 // Delete
 users.delete('/', (req, res) => {
-	req.session.destroy(() => {});
-	res.clearCookie('user');
-	res.clearCookie('sessionid');
-	res.clearCookie('userid');
+	// req.session.destroy(() => {});
+	req.session.destroy((err, currentSession) => {
+		console.log('CURRENT SESSION BELOW');
+		console.log(currentSession);
+		if (err) {
+			res.status(200).json({ error: err.message });
+		}
+		res.status(200).json(currentSession);
+	});
+	// res.clearCookie('user');
+	// res.clearCookie('sessionid');
+	// res.clearCookie('userid');
 	res.send('logout successful');
 });
 

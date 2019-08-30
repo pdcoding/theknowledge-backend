@@ -11,6 +11,7 @@ const MongoStore = require('connect-mongo')(session);
 
 const whitelist = [
 	'http://localhost:3000',
+	'http://localhost',
 	'http://theknowledge.surge.sh',
 	'https://theknowledge.surge.sh'
 ];
@@ -52,8 +53,8 @@ app.use(
 		secret: process.env.SECRET,
 		resave: false,
 		saveUninitialized: false,
-		store: new MongoStore({ mongooseConnection: db }),
-		cookie: {}
+		store: new MongoStore({ mongooseConnection: db })
+		// cookie: { }
 	})
 );
 
